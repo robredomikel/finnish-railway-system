@@ -1,0 +1,6 @@
+add_station kuo "kuopio" (945,767)
+add_station tpe "tampere" (542,455)
+add_station kli "kolari" (579,1758)
+add_station tus "turku satama" (366,219)
+add_station roi "rovaniemi" (740,1569)
+add_station vs "vaasa" (333,812)

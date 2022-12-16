@@ -1,0 +1,68 @@
+> # First read in compulsory example
+> read "example-compulsory-in.txt"
+** Commands from 'example-compulsory-in.txt'
+> clear_all
+Cleared all stations
+> clear_trains
+All trains removed.
+> all_stations
+No stations!
+> read "example-stations.txt" silent
+** Commands from 'example-stations.txt'
+...(output discarded in silent mode)...
+** End of commands from 'example-stations.txt'
+> read "example-trains.txt"
+** Commands from 'example-trains.txt'
+> # Some imaginary example trains
+> add_train tukutuku tus:0800 tpe:0900 kuo:1000
+1. turku satama (tus) -> tampere (tpe): tukutuku (at 0800)
+2. tampere (tpe) -> kuopio (kuo): tukutuku (at 0900)
+3. kuopio (kuo): tukutuku (at 1000)
+> add_train upwards tpe:0930 roi:1600 kli:2000
+1. tampere (tpe) -> rovaniemi (roi): upwards (at 0930)
+2. rovaniemi (roi) -> kolari (kli): upwards (at 1600)
+3. kolari (kli): upwards (at 2000)
+> add_train fast1 tus:1000 kuo:1200
+1. turku satama (tus) -> kuopio (kuo): fast1 (at 1000)
+2. kuopio (kuo): fast1 (at 1200)
+> add_train fast2 kuo:1100 kli:1900
+1. kuopio (kuo) -> kolari (kli): fast2 (at 1100)
+2. kolari (kli): fast2 (at 1900)
+> add_train downwards kli:1300 vs:1500 kuo:2000
+1. kolari (kli) -> vaasa (vs): downwards (at 1300)
+2. vaasa (vs) -> kuopio (kuo): downwards (at 1500)
+3. kuopio (kuo): downwards (at 2000)
+> 
+** End of commands from 'example-trains.txt'
+> next_stations_from tpe
+1. tampere (tpe) -> kuopio (kuo)
+2. tampere (tpe) -> rovaniemi (roi)
+> train_stations_from tpe upwards
+1. tampere (tpe) -> rovaniemi (roi)
+2. rovaniemi (roi) -> kolari (kli)
+> route_any tus roi
+1. turku satama (tus) -> tampere (tpe) (distance 0)
+2. tampere (tpe) -> rovaniemi (roi) (distance 294)
+3. rovaniemi (roi) (distance 1425)
+> 
+** End of commands from 'example-compulsory-in.txt'
+> route_least_stations tus kli
+1. turku satama (tus) -> kuopio (kuo) (distance 0)
+2. kuopio (kuo) -> kolari (kli) (distance 797)
+3. kolari (kli) (distance 1853)
+> route_with_cycle kuo
+1. kuopio (kuo) -> kolari (kli)
+2. kolari (kli) -> vaasa (vs)
+3. vaasa (vs) -> kuopio (kuo)
+4. kuopio (kuo)
+> route_shortest_distance tus kli
+1. turku satama (tus) -> tampere (tpe) (distance 0)
+2. tampere (tpe) -> rovaniemi (roi) (distance 294)
+3. rovaniemi (roi) -> kolari (kli) (distance 1425)
+4. kolari (kli) (distance 1673)
+> route_earliest_arrival tus kli 0700
+1. turku satama (tus) -> tampere (tpe) (at 0800)
+2. tampere (tpe) -> kuopio (kuo) (at 0900)
+3. kuopio (kuo) -> kolari (kli) (at 1100)
+4. kolari (kli) (at 1900)
+> 

@@ -1,0 +1,34 @@
+# Test route_earliest_arrival
+clear_all
+clear_trains
+station_count
+# Add stations
+add_station Id1 "One" (11,12)
+add_station Id2 "Two" (21,22)
+add_station Id3 "Three" (13,20)
+station_count
+# Add trains
+add_train T12e Id1:0800 Id2:0900
+add_train T12l Id1:0830 Id2:0930
+add_train T23e Id2:0900 Id3:1000
+add_train T23l Id2:1000 Id3:1100
+# Test basic routing
+route_earliest_arrival Id1 Id2 0800
+route_earliest_arrival Id2 Id3 0930
+route_earliest_arrival Id1 Id3 0600
+route_earliest_arrival Id1 Id3 0801
+route_earliest_arrival Id3 Id2 0000
+# Test non-existing station
+route_earliest_arrival Id1 Id4 0000
+# Test Non-existing route
+add_station Id4 "Four" (20, 14)
+route_earliest_arrival Id1 Id4 0000
+# Test more
+add_train T24 Id2:0915 Id4:1500
+add_train T34 Id2:1030 Id4:1400
+add_train T242 Id2:1050 Id4:1500
+add_train T122 Id1:0900 Id2:1040
+route_earliest_arrival Id2 Id4 0915
+route_earliest_arrival Id1 Id4 0820
+route_earliest_arrival Id1 Id4 0840
+route_earliest_arrival Id1 Id4 0920

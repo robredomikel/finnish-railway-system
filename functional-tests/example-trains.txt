@@ -1,0 +1,6 @@
+# Some imaginary example trains
+add_train tukutuku tus:0800 tpe:0900 kuo:1000
+add_train upwards tpe:0930 roi:1600 kli:2000
+add_train fast1 tus:1000 kuo:1200
+add_train fast2 kuo:1100 kli:1900
+add_train downwards kli:1300 vs:1500 kuo:2000

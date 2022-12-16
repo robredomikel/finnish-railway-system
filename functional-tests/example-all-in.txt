@@ -1,0 +1,6 @@
+# First read in compulsory example
+read "example-compulsory-in.txt"
+route_least_stations tus kli
+route_with_cycle kuo
+route_shortest_distance tus kli
+route_earliest_arrival tus kli 0700

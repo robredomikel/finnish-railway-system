@@ -1,0 +1,121 @@
+> # Test route_shortest_distance
+> clear_all
+Cleared all stations
+> clear_trains
+All trains removed.
+> all_stations
+No stations!
+> # Add stations
+> add_station Id1 "One" (11,12)
+Station:
+   One: pos=(11,12), id=Id1
+> add_station Id2 "Two" (21,22)
+Station:
+   Two: pos=(21,22), id=Id2
+> add_station Id3 "Three" (13,20)
+Station:
+   Three: pos=(13,20), id=Id3
+> station_count
+Number of stations: 3
+> # Add trains
+> add_train T12 Id1:0800 Id2:0900
+1. One (Id1) -> Two (Id2): T12 (at 0800)
+2. Two (Id2): T12 (at 0900)
+> add_train T21 Id2:0800 Id1:0900
+1. Two (Id2) -> One (Id1): T21 (at 0800)
+2. One (Id1): T21 (at 0900)
+> add_train T32 Id3:1000 Id2:1100
+1. Three (Id3) -> Two (Id2): T32 (at 1000)
+2. Two (Id2): T32 (at 1100)
+> add_train T23 Id2:1000 Id3:1100
+1. Two (Id2) -> Three (Id3): T23 (at 1000)
+2. Three (Id3): T23 (at 1100)
+> # Test basic routing
+> route_shortest_distance Id1 Id2
+1. One (Id1) -> Two (Id2) (distance 0)
+2. Two (Id2) (distance 14)
+> route_shortest_distance Id2 Id3
+1. Two (Id2) -> Three (Id3) (distance 0)
+2. Three (Id3) (distance 8)
+> route_shortest_distance Id1 Id3
+1. One (Id1) -> Two (Id2) (distance 0)
+2. Two (Id2) -> Three (Id3) (distance 14)
+3. Three (Id3) (distance 22)
+> route_shortest_distance Id3 Id2
+1. Three (Id3) -> Two (Id2) (distance 0)
+2. Two (Id2) (distance 8)
+> route_shortest_distance Id3 Id1
+1. Three (Id3) -> Two (Id2) (distance 0)
+2. Two (Id2) -> One (Id1) (distance 8)
+3. One (Id1) (distance 22)
+> # Test non-existing station
+> route_shortest_distance Id1 Id4
+Starting or destination station not found!
+> # Test Non-existing route
+> add_station Id4 "Four" (20, 14)
+Station:
+   Four: pos=(20,14), id=Id4
+> route_shortest_distance Id1 Id4
+No route found!
+> # Test a T-crossing
+> add_train T24 Id2:1900 Id4:2100
+1. Two (Id2) -> Four (Id4): T24 (at 1900)
+2. Four (Id4): T24 (at 2100)
+> add_train T42 Id4:2100 Id2:2300
+1. Four (Id4) -> Two (Id2): T42 (at 2100)
+2. Two (Id2): T42 (at 2300)
+> route_shortest_distance Id2 Id4
+1. Two (Id2) -> Four (Id4) (distance 0)
+2. Four (Id4) (distance 8)
+> route_shortest_distance Id1 Id4
+1. One (Id1) -> Two (Id2) (distance 0)
+2. Two (Id2) -> Four (Id4) (distance 14)
+3. Four (Id4) (distance 22)
+> route_shortest_distance Id4 Id3
+1. Four (Id4) -> Two (Id2) (distance 0)
+2. Two (Id2) -> Three (Id3) (distance 8)
+3. Three (Id3) (distance 16)
+> route_shortest_distance Id3 Id1
+1. Three (Id3) -> Two (Id2) (distance 0)
+2. Two (Id2) -> One (Id1) (distance 8)
+3. One (Id1) (distance 22)
+> # Add a loop and test
+> add_station Id5 "Five" (17,15)
+Station:
+   Five: pos=(17,15), id=Id5
+> add_station Id6 "Six" (14,17)
+Station:
+   Six: pos=(14,17), id=Id6
+> add_train T45 Id4:0000 Id5:0100
+1. Four (Id4) -> Five (Id5): T45 (at 0000)
+2. Five (Id5): T45 (at 0100)
+> add_train T54 Id5:0000 Id4:0100
+1. Five (Id5) -> Four (Id4): T54 (at 0000)
+2. Four (Id4): T54 (at 0100)
+> add_train T56 Id5:0200 Id6:0300
+1. Five (Id5) -> Six (Id6): T56 (at 0200)
+2. Six (Id6): T56 (at 0300)
+> add_train T65 Id6:0200 Id5:0300
+1. Six (Id6) -> Five (Id5): T65 (at 0200)
+2. Five (Id5): T65 (at 0300)
+> add_train T36 Id3:0600 Id6:0640
+1. Three (Id3) -> Six (Id6): T36 (at 0600)
+2. Six (Id6): T36 (at 0640)
+> add_train T63 Id6:0600 Id3:0640
+1. Six (Id6) -> Three (Id3): T63 (at 0600)
+2. Three (Id3): T63 (at 0640)
+> route_shortest_distance Id1 Id4
+1. One (Id1) -> Two (Id2) (distance 0)
+2. Two (Id2) -> Four (Id4) (distance 14)
+3. Four (Id4) (distance 22)
+> route_shortest_distance Id3 Id4
+1. Three (Id3) -> Six (Id6) (distance 0)
+2. Six (Id6) -> Five (Id5) (distance 3)
+3. Five (Id5) -> Four (Id4) (distance 6)
+4. Four (Id4) (distance 9)
+> route_shortest_distance Id1 Id5
+1. One (Id1) -> Two (Id2) (distance 0)
+2. Two (Id2) -> Four (Id4) (distance 14)
+3. Four (Id4) -> Five (Id5) (distance 22)
+4. Five (Id5) (distance 25)
+> 

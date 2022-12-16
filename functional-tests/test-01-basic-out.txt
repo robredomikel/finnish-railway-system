@@ -1,0 +1,78 @@
+> # Test adding trains and getting basic info
+> # Empty state
+> clear_all
+Cleared all stations
+> clear_trains
+All trains removed.
+> all_stations
+No stations!
+> # Add stations
+> add_station Id1 "One" (11,12)
+Station:
+   One: pos=(11,12), id=Id1
+> add_station Id2 "Two" (21,22)
+Station:
+   Two: pos=(21,22), id=Id2
+> add_station Id3 "Three" (13,20)
+Station:
+   Three: pos=(13,20), id=Id3
+> station_count
+Number of stations: 3
+> # Add trains
+> add_train T1 Id1:0800 Id2:0900
+1. One (Id1) -> Two (Id2): T1 (at 0800)
+2. Two (Id2): T1 (at 0900)
+> add_train T2 Id3:0900 Id2:1000 Id1:1100
+1. Three (Id3) -> Two (Id2): T2 (at 0900)
+2. Two (Id2) -> One (Id1): T2 (at 1000)
+3. One (Id1): T2 (at 1100)
+> add_train T3 Id2:1200 Id3:1300 Id1:1400
+1. Two (Id2) -> Three (Id3): T3 (at 1200)
+2. Three (Id3) -> One (Id1): T3 (at 1300)
+3. One (Id1): T3 (at 1400)
+> # Test getters
+> next_stations_from Id1
+1. One (Id1) -> Two (Id2)
+> next_stations_from Id2
+1. Two (Id2) -> One (Id1)
+2. Two (Id2) -> Three (Id3)
+> next_stations_from Id3
+1. Three (Id3) -> One (Id1)
+2. Three (Id3) -> Two (Id2)
+> # Test invalid getters
+> next_stations_from Id4
+1. !NO_NAME! (Id4)
+> # Test train info
+> train_stations_from Id1 T1
+1. One (Id1) -> Two (Id2)
+> train_stations_from Id1 T2
+Unsuccessful, operation returned {NO_STATION}.
+> train_stations_from Id1 T3
+Unsuccessful, operation returned {NO_STATION}.
+> train_stations_from Id2 T1
+Unsuccessful, operation returned {NO_STATION}.
+> train_stations_from Id2 T2
+1. Two (Id2) -> One (Id1)
+> train_stations_from Id2 T3
+1. Two (Id2) -> Three (Id3)
+2. Three (Id3) -> One (Id1)
+> train_stations_from Id3 T1
+Unsuccessful, operation returned {NO_STATION}.
+> train_stations_from Id3 T2
+1. Three (Id3) -> Two (Id2)
+2. Two (Id2) -> One (Id1)
+> train_stations_from Id3 T3
+1. Three (Id3) -> One (Id1)
+> # Invalid train info
+> train_stations_from Id4 T1
+Unsuccessful, operation returned {NO_STATION}.
+> train_stations_from Id1 T4
+Unsuccessful, operation returned {NO_STATION}.
+> # Clear and test
+> clear_trains
+All trains removed.
+> # Test a now removed train
+> next_stations_from Id1
+> train_stations_from Id1 T1
+Unsuccessful, operation returned {NO_STATION}.
+> 

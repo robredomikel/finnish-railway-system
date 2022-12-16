@@ -1,0 +1,28 @@
+# Test route_with_cycle
+clear_all
+clear_trains
+station_count
+# Add stations
+add_station Id1 "One" (11,12)
+add_station Id2 "Two" (21,22)
+add_station Id3 "Three" (13,20)
+station_count
+# Add trains
+add_train T12 Id1:0800 Id2:0900
+add_train T32 Id3:1000 Id2:1100
+# Test no cycles
+route_with_cycle Id1
+route_with_cycle Id2
+route_with_cycle Id3
+# Test non-existing station
+route_with_cycle Id4
+# Test Non-existing route
+add_station Id4 "Four" (20, 14)
+route_with_cycle Id4
+# Test a T-crossing
+add_train T24 Id2:1700 Id4:1800
+route_with_cycle Id4
+# Add a loop
+add_train T41 Id4:0100 Id1:0110
+route_with_cycle Id4
+route_with_cycle Id3

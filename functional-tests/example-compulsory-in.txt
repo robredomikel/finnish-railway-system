@@ -1,0 +1,8 @@
+clear_all
+clear_trains
+all_stations
+read "example-stations.txt" silent
+read "example-trains.txt"
+next_stations_from tpe
+train_stations_from tpe upwards
+route_any tus roi

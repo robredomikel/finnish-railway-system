@@ -1,0 +1,66 @@
+> # Test route_any
+> clear_all
+Cleared all stations
+> clear_trains
+All trains removed.
+> all_stations
+No stations!
+> # Add stations
+> add_station Id1 "One" (11,12)
+Station:
+   One: pos=(11,12), id=Id1
+> add_station Id2 "Two" (21,22)
+Station:
+   Two: pos=(21,22), id=Id2
+> add_station Id3 "Three" (13,20)
+Station:
+   Three: pos=(13,20), id=Id3
+> station_count
+Number of stations: 3
+> # Add trains
+> add_train T1 Id1:0900 Id2:1000
+1. One (Id1) -> Two (Id2): T1 (at 0900)
+2. Two (Id2): T1 (at 1000)
+> add_train T2 Id2:0800 Id3:1000
+1. Two (Id2) -> Three (Id3): T2 (at 0800)
+2. Three (Id3): T2 (at 1000)
+> # Test basic routing
+> route_any Id1 Id2
+1. One (Id1) -> Two (Id2) (distance 0)
+2. Two (Id2) (distance 14)
+> route_any Id2 Id3
+1. Two (Id2) -> Three (Id3) (distance 0)
+2. Three (Id3) (distance 8)
+> route_any Id1 Id3
+1. One (Id1) -> Two (Id2) (distance 0)
+2. Two (Id2) -> Three (Id3) (distance 14)
+3. Three (Id3) (distance 22)
+> route_any Id3 Id2
+No route found!
+> route_any Id3 Id1
+No route found!
+> # Test non-existing station
+> route_any Id1 Id4
+Starting or destination station not found!
+> # Test Non-existing route
+> route_any Id2 Id1
+No route found!
+> route_any Id3 Id1
+No route found!
+> # Test a T-crossing
+> add_station Id4 "Four" (3,3)
+Station:
+   Four: pos=(3,3), id=Id4
+> add_train T3 Id2:0600 Id4:1900
+1. Two (Id2) -> Four (Id4): T3 (at 0600)
+2. Four (Id4): T3 (at 1900)
+> route_any Id2 Id4
+1. Two (Id2) -> Four (Id4) (distance 0)
+2. Four (Id4) (distance 26)
+> route_any Id1 Id4
+1. One (Id1) -> Two (Id2) (distance 0)
+2. Two (Id2) -> Four (Id4) (distance 14)
+3. Four (Id4) (distance 40)
+> route_any Id4 Id3
+No route found!
+> 

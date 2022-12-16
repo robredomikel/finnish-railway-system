@@ -1,0 +1,85 @@
+> # Test route_least_stations
+> clear_all
+Cleared all stations
+> clear_trains
+All trains removed.
+> all_stations
+No stations!
+> # Add stations
+> add_station Id1 "One" (11,12)
+Station:
+   One: pos=(11,12), id=Id1
+> add_station Id2 "Two" (21,22)
+Station:
+   Two: pos=(21,22), id=Id2
+> add_station Id3 "Three" (13,20)
+Station:
+   Three: pos=(13,20), id=Id3
+> station_count
+Number of stations: 3
+> # Add trains
+> add_train T12 Id1:0900 Id2:1000
+1. One (Id1) -> Two (Id2): T12 (at 0900)
+2. Two (Id2): T12 (at 1000)
+> add_train T23 Id2:1100 Id3:1200
+1. Two (Id2) -> Three (Id3): T23 (at 1100)
+2. Three (Id3): T23 (at 1200)
+> # Test basic routing
+> route_least_stations Id1 Id2
+1. One (Id1) -> Two (Id2) (distance 0)
+2. Two (Id2) (distance 14)
+> route_least_stations Id2 Id3
+1. Two (Id2) -> Three (Id3) (distance 0)
+2. Three (Id3) (distance 8)
+> route_least_stations Id1 Id3
+1. One (Id1) -> Two (Id2) (distance 0)
+2. Two (Id2) -> Three (Id3) (distance 14)
+3. Three (Id3) (distance 22)
+> route_least_stations Id3 Id2
+No route found!
+> route_least_stations Id3 Id1
+No route found!
+> # Test non-existing station
+> route_least_stations Id1 Id4
+Starting or destination station not found!
+> # Test Non-existing route
+> add_station Id4 "Four" (20, 14)
+Station:
+   Four: pos=(20,14), id=Id4
+> route_least_stations Id1 Id4
+No route found!
+> # Test a T-crossing
+> add_train T3214 Id3:0700 Id2:0800 Id1:0900 Id4:1000
+1. Three (Id3) -> Two (Id2): T3214 (at 0700)
+2. Two (Id2) -> One (Id1): T3214 (at 0800)
+3. One (Id1) -> Four (Id4): T3214 (at 0900)
+4. Four (Id4): T3214 (at 1000)
+> route_least_stations Id3 Id4
+1. Three (Id3) -> Two (Id2) (distance 0)
+2. Two (Id2) -> One (Id1) (distance 8)
+3. One (Id1) -> Four (Id4) (distance 22)
+4. Four (Id4) (distance 31)
+> route_least_stations Id1 Id4
+1. One (Id1) -> Four (Id4) (distance 0)
+2. Four (Id4) (distance 9)
+> route_least_stations Id4 Id3
+No route found!
+> route_least_stations Id2 Id4
+1. Two (Id2) -> One (Id1) (distance 0)
+2. One (Id1) -> Four (Id4) (distance 14)
+3. Four (Id4) (distance 23)
+> add_train T24 Id2:2100 Id4:2200
+1. Two (Id2) -> Four (Id4): T24 (at 2100)
+2. Four (Id4): T24 (at 2200)
+> route_least_stations Id1 Id4
+1. One (Id1) -> Four (Id4) (distance 0)
+2. Four (Id4) (distance 9)
+> route_least_stations Id3 Id4
+1. Three (Id3) -> Two (Id2) (distance 0)
+2. Two (Id2) -> Four (Id4) (distance 8)
+3. Four (Id4) (distance 16)
+> route_least_stations Id1 Id3
+1. One (Id1) -> Two (Id2) (distance 0)
+2. Two (Id2) -> Three (Id3) (distance 14)
+3. Three (Id3) (distance 22)
+> 

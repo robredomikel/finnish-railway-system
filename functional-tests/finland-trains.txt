@@ -1,0 +1,528 @@
+add_train hki-jns-1-102-10 hki:0655 psl:0701 tkl:0711 lh:0751 kv:0823 lr:0909 jts:0925 imr:0940 spl:1007 par:1022 kti:1045 kit:1104 jns:1141
+add_train hki-kv-1-102-10 hki:0657 psl:0703 tkl:0714 lh:0751 kv:0819
+add_train jns-hki-2-102-10 jns:0458 kit:0533 par:0612 spl:0625 imr:0656 lr:0721 kv:0809 lh:0840 tkl:0916 psl:0925 hki:0930
+add_train hki-jns-3-102-10 hki:1019 psl:1025 tkl:1036 lh:1113 kv:1143 lr:1223 jts:1239 imr:1254 par:1333 kti:1355 kit:1414 jns:1451
+add_train hki-kv-3-102-10 hki:1019 psl:1025 tkl:1036 lh:1113 kv:1141
+add_train hki-lpv-a-109-10 hki:2033 psl:2037 ila:2039 hpl:2042 vmo:2043 pjm:2045 ma-k:2046 lpv:2049
+add_train hki-lpv-a-109-9995 hki:2033 psl:2037 ila:2039 hpl:2042 vmo:2043 pjm:2045 ma-k:2046 lpv:2049
+add_train jns-hki-4-102-10 jns:0558 kit:0633 kti:0657 par:0721 spl:0734 imr:0802 jts:0814 lr:0831 kv:0919 lh:0949 tkl:1026 psl:1035 hki:1040
+add_train lpv-hki-a-109-10 lpv:2056 ma-k:2058 pjm:2100 vmo:2101 hpl:2103 ila:2105 psl:2108 hki:2113
+add_train lpv-hki-a-109-9995 lpv:2056 ma-k:2058 pjm:2100 vmo:2101 hpl:2103 ila:2105 psl:2108 hki:2113
+add_train hki-jns-5-102-10 hki:1319 psl:1325 tkl:1336 lh:1413 kv:1443 lr:1523 jts:1539 imr:1554 par:1633 kti:1655 kit:1714 jns:1751
+add_train hki-kv-5-102-10 hki:1319 psl:1325 tkl:1336 lh:1413 kv:1441
+add_train jns-hki-6-102-10 jns:0900 kit:0935 kti:0954 par:1020 spl:1034 imr:1102 jts:1114 lr:1131 kv:1219 lh:1249 tkl:1326 psl:1335 hki:1340
+add_train kv-hki-6-102-10 kv:1219 lh:1249 tkl:1326 psl:1335 hki:1340
+add_train hki-jns-7-102-10 hki:1515 psl:1521 tkl:1532 lh:1613 kv:1645 lr:1723 imr:1750 jns:1938
+add_train jns-hki-8-102-10 jns:1211 kit:1246 kti:1305 par:1331 imr:1409 jts:1421 lr:1436 kv:1519 lh:1549 tkl:1626 psl:1635 hki:1640
+add_train kv-hki-8-102-10 kv:1519 lh:1549 tkl:1626 psl:1635 hki:1640
+add_train hki-jns-9-102-10 hki:1619 psl:1625 tkl:1636 lh:1713 kv:1744 lr:1827 jts:1843 imr:1858 spl:1925 par:1940 kti:2002 kit:2021 jns:2058
+add_train hki-imr-9-102-10 hki:1619 psl:1625 tkl:1636 lh:1713 kv:1744 lr:1827 jts:1843 imr:1855
+add_train hki-kv-9-102-10 hki:1619 psl:1625 tkl:1636 lh:1713 kv:1741
+add_train jns-hki-10-102-10 jns:1511 kit:1546 kti:1605 par:1631 imr:1709 jts:1721 lr:1744 kv:1824 lh:1854 tkl:1931 psl:1940 hki:1945
+add_train kv-hki-10-102-10 kv:1824 lh:1854 tkl:1931 psl:1940 hki:1945
+add_train hki-jns-11-102-10 hki:1829 psl:1835 tkl:1845 lh:1923 kv:2000 lr:2046 jts:2102 imr:2116 spl:2143 par:2157 kti:2219 kit:2238 jns:2315
+add_train hki-kv-11-102-10 hki:1829 psl:1835 tkl:1845 lh:1923 kv:1951
+add_train jns-hki-12-102-10 jns:1813 kit:1848 kti:1912 par:1938 spl:1952 imr:2020 jts:2032 lr:2048 kv:2129 lh:2210 tkl:2248 psl:2258 hki:2303
+add_train kv-hki-12-102-10 kv:2129 lh:2210 tkl:2248 psl:2258 hki:2303
+add_train ol-hki-20-102-10 ol:0521 kml:0533 rki:0552 vti:0608 ou:0624 yv:0643 kns:0703 kok:0727 pna-:0743 kha:0810 lpa:0819 sk:0838 tpe:1000 tkl:1121 psl:1130 hki:1135
+add_train pna--hki-20-102-10 pna-:0742 kha:0810 lpa:0819 sk:0838 tpe:1000 tkl:1121 psl:1130 hki:1135
+add_train tpe-hki-20-102-10 tpe:1000 tkl:1121 psl:1130 hki:1135
+add_train hki-ol-21-102-10 hki:0623 psl:0629 tkl:0639 tpe:0802 sk:0922 kha:0944 kok:1040 yv:1120 ol:1216
+add_train hki-vti-21-102-10 hki:0623 psl:0629 tkl:0639 tpe:0802 sk:0922 kha:0944 kok:1040 yv:1120 vti:1147
+add_train hki-pna--21-102-10 hki:0623 psl:0629 tkl:0639 tpe:0802 sk:0922 kha:0944 pna-:1018
+add_train roi-hki-22-102-10 roi:0527 mul:0544 trv:0613 kem:0647 ol:0749 yv:0848 kok:0927 sk:1035 tpe:1200 tkl:1321 psl:1330 hki:1335
+add_train pna--hki-22-102-10 pna-:0948 sk:1035 tpe:1200 tkl:1321 psl:1330 hki:1335
+add_train ol-hki-22-102-10 ol:0749 yv:0848 kok:0927 sk:1035 tpe:1200 tkl:1321 psl:1330 hki:1335
+add_train hki-roi-23-102-10 hki:0824 psl:0830 tkl:0841 tpe:1002 sk:1109 lpa:1122 kha:1131 pna-:1209 kok:1229 kns:1248 yv:1309 ou:1325 vti:1340 rki:1353 kml:1412 ol:1427 kem:1531 trv:1600 mul:1629 roi:1646
+add_train hki-vti-23-102-10 hki:0824 psl:0830 tkl:0841 tpe:1002 sk:1109 lpa:1122 kha:1131 hm:1141 pna-:1209 kok:1229 kns:1248 yv:1309 ou:1325 vti:1339
+add_train hki-pna--23-102-10 hki:0824 psl:0830 tkl:0841 tpe:1002 sk:1109 lpa:1122 kha:1131 pna-:1208
+add_train hki-ol-23-102-10 hki:0824 psl:0830 tkl:0841 tpe:1002 sk:1109 lpa:1122 kha:1131 pna-:1209 kok:1229 kns:1248 yv:1309 ou:1325 vti:1340 rki:1353 kml:1412 ol:1422
+add_train roi-hki-24-102-10 roi:0932 mul:0950 trv:1021 kem:1050 ol:1155 yv:1259 kok:1338 sk:1438 tpe:1600 tkl:1721 psl:1730 hki:1735
+add_train vti-hki-24-102-10 vti:1230 yv:1259 kok:1338 sk:1438 tpe:1600 tkl:1721 psl:1730 hki:1735
+add_train pna--hki-24-102-10 pna-:1351 sk:1438 tpe:1600 tkl:1721 psl:1730 hki:1735
+add_train ol-hki-24-102-10 ol:1155 yv:1259 kok:1338 sk:1438 tpe:1600 tkl:1721 psl:1730 hki:1735
+add_train hki-ol-25-102-10 hki:1220 psl:1226 tkl:1237 tpe:1402 sk:1513 kok:1616 yv:1653 ol:1748
+add_train hki-pna--25-102-10 hki:1224 psl:1230 tkl:1241 tpe:1402 sk:1513 pna-:1601
+add_train hki-sk-25-102-10 hki:1224 psl:1230 tkl:1241 tpe:1402 sk:1509
+add_train ol-hki-26-102-10 ol:1333 kml:1342 yv:1441 kok:1521 pna-:1538 sk:1628 pko:1709 tpe:1800 tkl:1921 psl:1930 hki:1935
+add_train vti-hki-26-102-10 vti:1412 yv:1441 kok:1521 pna-:1538 sk:1628 pko:1709 tpe:1800 tkl:1921 psl:1930 hki:1935
+add_train pna--hki-26-102-10 pna-:1538 sk:1628 pko:1709 tpe:1800 tkl:1921 psl:1930 hki:1935
+add_train sk-hki-26-102-10 sk:1628 pko:1709 tpe:1800 tkl:1921 psl:1930 hki:1935
+add_train hki-ol-27-102-10 hki:1420 psl:1426 tkl:1437 tpe:1602 sk:1725 kok:1828 yv:1905 ou:1921 ol:2012
+add_train hki-pna--27-102-10 hki:1424 psl:1430 tkl:1441 tpe:1602 sk:1725 pna-:1809
+add_train ol-hki-28-102-10 ol:1808 yv:1904 kok:1941 sk:2044 tpe:2200 tkl:2321 psl:2330 hki:2335
+add_train pna--hki-28-102-10 pna-:1959 sk:2044 tpe:2200 tkl:2321 psl:2330 hki:2335
+add_train hki-ol-29-102-10 hki:1824 psl:1830 tkl:1841 tpe:2002 pko:2035 sk:2129 pna-:2212 kok:2233 yv:2310 kml:0006 ol:0016
+add_train hki-pna--29-102-10 hki:1824 psl:1830 tkl:1841 tpe:2002 pko:2035 sk:2129 pna-:2211
+add_train hki-mva-31-102-10 hki:1843 psl:1849 tkl:1900 lh:1954 kv:2034 vna:2215
+add_train vna-hki-32-102-10 vna:1014 kv:1110 lh:1157 tkl:1250 psl:1325 hki:1330
+add_train hki-ol-33-102-10 hki:1003 psl:1009 tkl:1019 ri:1052 hl:1111 tl:1131 lpa-:1141 tpe:1157 sk:1309 kok:1412 yv:1449 ol:1545
+add_train ol-hki-34-102-10 ol:1530 yv:1634 kok:1713 sk:1828 tpe:2000 tkl:2121 psl:2130 hki:2135
+add_train hki-ol-35-102-10 hki:0503 psl:0509 tkl:0519 ri:0552 hl:0611 tl:0631 tpe:0702 pko:0744 sk:0837 lpa:0850 kha:0900 pna-:0928 kok:0949 kns:1008 yv:1030 ou:1045 vti:1059 rki:1112 kml:1131 ol:1142
+add_train hki-pna--35-102-10 hki:0503 psl:0509 tkl:0519 ri:0552 hl:0611 tl:0631 tpe:0702 pko:0744 sk:0839 lpa:0852 kha:0902 pna-:0929
+add_train ol-hki-36-102-10 ol:0620 ou:0715 yv:0735 kok:0815 pna-:0831 sk:0926 tpe:1100 tkl:1221 psl:1230 hki:1235
+add_train kok-hki-36-102-10 kok:0815 pna-:0831 sk:0926 tpe:1100 tkl:1221 psl:1230 hki:1235
+add_train pna--hki-36-102-10 pna-:0830 sk:0926 tpe:1100 tkl:1221 psl:1230 hki:1235
+add_train hki-roi-37-102-10 hki:1324 psl:1330 tkl:1341 tpe:1502 pko:1545 sk:1637 lpa:1650 kha:1659 pna-:1730 kok:1750 kns:1809 yv:1830 ou:1848 vti:1902 rki:1915 kml:1941 ol:2020 kem:2126 trv:2155 mul:2227 roi:2245
+add_train hki-ol-37-102-10 hki:1324 psl:1330 tkl:1341 tpe:1502 pko:1545 sk:1635 lpa:1648 kha:1657 pna-:1730 kok:1750 kns:1809 yv:1830 ou:1848 vti:1902 rki:1915 kml:1941 ol:1951
+add_train hki-pna--37-102-10 hki:1324 psl:1330 tkl:1341 tpe:1502 pko:1545 sk:1637 lpa:1650 kha:1659 pna-:1729
+add_train ol-hki-38-102-10 ol:0916 kml:0925 rki:0943 vti:0956 ou:1011 yv:1030 kns:1052 kok:1117 pna-:1134 kha:1205 lpa:1214 sk:1239 pko:1313 tpe:1400 tkl:1521 psl:1530 hki:1535
+add_train pna--hki-38-102-10 pna-:1134 kha:1205 lpa:1214 sk:1239 pko:1313 tpe:1400 tkl:1521 psl:1530 hki:1535
+add_train vs-hki-40-102-10 vs:0444 tk:0505 sk:0537 pko:0612 tpe:0700 tkl:0821 psl:0830 hki:0835
+add_train hki-vs-41-102-10 hki:0720 psl:0726 tkl:0737 tpe:0902 sk:1011 tk:1039 vs:1107
+add_train tpe-vs-41-102-10 tpe:0902 sk:1011 tk:1039 vs:1107
+add_train vs-hki-42-102-10 vs:0544 tk:0605 sk:0637 pko:0712 tpe:0800 tkl:0921 psl:0930 hki:0935
+add_train hki-vs-43-102-10 hki:0920 psl:0926 tkl:0937 tpe:1102 pko:1144 sk:1234 tk:1302 vs:1324
+add_train vs-hki-44-102-10 vs:0644 tk:0705 sk:0737 pko:0812 tpe:0904 lpa-:0916 tl:0926 hl:0947 ri:1008 tkl:1040 psl:1049 hki:1054
+add_train hki-vs-45-102-10 hki:1103 psl:1109 tkl:1119 ri:1152 hl:1211 tl:1231 lpa-:1241 tpe:1302 sk:1420 tk:1448 vs:1517
+add_train vs-hki-46-102-10 vs:1035 tk:1056 sk:1128 pko:1204 tpe:1300 tkl:1421 psl:1430 hki:1435
+add_train vs-tpe-46-102-10 vs:1035 tk:1056 sk:1128 pko:1204 tpe:1251
+add_train hki-vs-47-102-10 hki:1520 psl:1526 tkl:1537 tpe:1702 pko:1735 sk:1814 tk:1848 vs:1910
+add_train vs-hki-48-102-10 vs:1247 tk:1316 sk:1347 tpe:1500 tkl:1621 psl:1630 hki:1635
+add_train tpe-hki-48-102-10 tpe:1500 tkl:1621 psl:1630 hki:1635
+add_train hki-vs-49-102-10 hki:1720 psl:1726 tkl:1737 tpe:1902 sk:2016 tk:2044 vs:2106
+add_train vs-hki-50-102-10 vs:1445 tk:1506 sk:1538 pko:1612 tpe:1700 tkl:1821 psl:1830 hki:1835
+add_train hki-ol-51-102-10 hki:1620 psl:1626 tkl:1637 tpe:1802 sk:1909 kok:2014 kns:2033 yv:2055 ou:2112 vti:2129 rki:2147 kml:2205 ol:2215
+add_train hki-pna--51-102-10 hki:1624 psl:1630 tkl:1641 tpe:1802 sk:1909 pna-:1954
+add_train kok-sk-52-102-10 kok:0517 pna-:0536 kha:0603 lpa:0612 sk:0626
+add_train pna--sk-52-102-10 pna-:0536 kha:0603 lpa:0612 sk:0626
+add_train hki-vs-53-102-10 hki:2020 psl:2026 tkl:2037 tpe:2202 pko:2235 sk:2310 tk:2338 vs:2359
+add_train vs-hki-54-102-10 vs:1625 tk:1646 sk:1724 tpe:1900 tkl:2021 psl:2030 hki:2035
+add_train sk-vs-55-102-10 sk:0843 tk:0911 vs:0933
+add_train ol-hki-56-102-10 ol:1611 kml:1620 rki:1638 vti:1651 ou:1707 yv:1725 kns:1745 kok:1806 pna-:1829 kha:1858 lpa:1907 sk:1928 pko:2008 tpe:2100 tkl:2221 psl:2230 hki:2235
+add_train pna--hki-56-102-10 pna-:1829 kha:1858 lpa:1907 sk:1928 pko:2008 tpe:2100 tkl:2221 psl:2230 hki:2235
+add_train vs-hki-58-102-10 vs:2031 tk:2057 sk:2130 tpe:2300 tkl:0021 psl:0030 hki:0035
+add_train hki-kok-59-102-10 hki:1640 psl:1646 ri:1725 hl:1745 tpe:1825 pko:1858 sk:1937 lpa:1950 kha:1959 pna-:2038 kok:2057
+add_train hki-pna--59-102-10 hki:1640 psl:1646 ri:1725 hl:1745 tpe:1825 pko:1858 sk:1937 lpa:1950 kha:1959 pna-:2037
+add_train tpe-kok-59-102-10 tpe:1825 pko:1858 sk:1937 lpa:1950 kha:1959 pna-:2038 kok:2057
+add_train hki-kuo-61-102-10 hki:0555 psl:0601 tkl:0611 lh:0651 kv:0731 mr:0817 mi:0843 pm:0923 snj:0946 kuo:1012
+add_train kaj-hki-62-102-10 kaj:0340 skv:0406 ilm:0432 lna:0448 sij:0510 kuo:0532 snj:0602 pm:0628 mi:0709 mr:0733 kv:0819 lh:0849 tkl:0926 psl:0935 hki:0940
+add_train hki-kuo-63-102-10 hki:0815 psl:0821 tkl:0832 lh:0913 kv:0950 mr:1031 mi:1057 pm:1137 snj:1201 kuo:1229
+add_train kaj-hki-64-102-10 kaj:0633 skv:0659 ilm:0725 lna:0741 sij:0803 kuo:0826 snj:0854 pm:0920 mi:1000 mr:1027 kv:1119 lh:1149 tkl:1226 psl:1235 hki:1240
+add_train kuo-hki-64-102-10 kuo:0826 snj:0854 pm:0920 mi:1000 mr:1030 kv:1119 lh:1149 tkl:1226 psl:1235 hki:1240
+add_train hki-ol-65-102-10 hki:1119 psl:1125 tkl:1136 lh:1216 kv:1303 mr:1341 mi:1406 pm:1445 snj:1508 kuo:1539 sij:1600 lna:1624 ilm:1642 skv:1707 kaj:1736 kon:1754 pto:1807 vaa:1840 utj:1902 mh:1931 ol:1956
+add_train ol-hki-66-102-10 ol:0710 mh:0737 utj:0752 vaa:0813 pto:0847 kon:0901 kaj:0923 skv:0949 ilm:1014 lna:1030 sij:1053 kuo:1118 snj:1146 pm:1213 mi:1253 mr:1317 kv:1419 lh:1449 tkl:1526 psl:1535 hki:1540
+add_train kaj-hki-66-102-10 kaj:0923 skv:0949 ilm:1014 lna:1030 sij:1053 kuo:1115 snj:1143 pm:1213 mi:1253 mr:1317 kv:1419 lh:1449 tkl:1526 psl:1535 hki:1540
+add_train hki-ol-67-102-10 hki:1419 psl:1425 tkl:1436 lh:1513 kv:1550 mr:1630 mi:1656 pm:1737 snj:1802 kuo:1838 sij:1857 lna:1919 ilm:1937 skv:2000 kaj:2108 kon:2128 pto:2144 vaa:2219 utj:2239 mh:2256 ol:2321
+add_train hki-kaj-67-102-10 hki:1419 psl:1425 tkl:1436 lh:1513 kv:1550 mr:1628 mi:1654 pm:1737 snj:1802 kuo:1838 sij:1857 lna:1919 ilm:1937 skv:2000 kaj:2032
+add_train kuo-hki-68-102-10 kuo:1420 snj:1448 pm:1520 mi:1600 mr:1629 hls:1645 kv:1719 lh:1749 tkl:1826 psl:1835 hki:1840
+add_train kv-kaj-69-102-10 kv:1748 mr:1828 mi:1853 pm:1932 snj:1954 kuo:2029 sij:2047 lna:2109 ilm:2128 skv:2151 kaj:2219
+add_train hki-kaj-69-102-10 hki:1519 psl:1525 tkl:1536 lh:1613 kv:1748 mr:1828 mi:1853 pm:1932 snj:1954 kuo:2029 sij:2047 lna:2109 ilm:2128 skv:2151 kaj:2219
+add_train ol-hki-70-102-10 ol:1224 mh:1248 utj:1303 vaa:1325 pto:1357 kon:1414 kaj:1433 skv:1500 ilm:1535 lna:1552 sij:1623 kuo:1700 snj:1728 pm:1804 mi:1851 mr:1915 kv:2015 lh:2047 tkl:2131 psl:2140 hki:2145
+add_train kkn-hki-u-109-10 kkn:2237 tol:2239 jrs:2242 mas:2244 klh:2249 epo:2253 trl:2255 kvh:2257 kni:2259 kea:2301 kil:2303 lpv:2306 hpl:2313 ila:2315 psl:2318 hki:2323
+add_train kuo-hki-72-102-10 kuo:1614 snj:1642 pm:1709 mi:1755 mr:1827 kv:1915 lh:1947 tkl:2026 psl:2035 hki:2040
+add_train hki-kaj-73-102-10 hki:1919 psl:1925 tkl:1936 lh:2013 kv:2051 mr:2129 mi:2154 pm:2233 snj:2258 kuo:2329 sij:2354 lna:0016 ilm:0033 skv:0056 kaj:0122
+add_train hki-kuo-73-102-10 hki:1919 psl:1925 tkl:1936 lh:2013 kv:2051 mr:2129 mi:2154 pm:2233 snj:2258 kuo:2325
+add_train jy-hki-80-102-10 jy:0524 ja-s:0555 ov:0630 tpe:0704 lpa-:0716 tl:0726 hl:0747 ri:0808 tkl:0840 psl:0849 hki:0854
+add_train tpe-hki-80-102-10 tpe:0704 lpa-:0716 tl:0726 hl:0747 ri:0808 tkl:0840 psl:0849 hki:0854
+add_train tpe-jy-81-102-10 tpe:0707 ov:0731 ja-s:0813 jy:0843
+add_train jy-hki-86-102-10 jy:1420 ja-s:1451 ov:1526 tpe:1604 lpa-:1616 tl:1628 hl:1649 ri:1708 tkl:1740 psl:1749 hki:1754
+add_train hki-jy-87-102-10 hki:1403 psl:1409 tkl:1419 ri:1452 hl:1511 tl:1531 lpa-:1541 tpe:1607 ov:1632 ja-s:1714 jy:1744
+add_train jy-hki-88-102-10 jy:1810 ja-s:1848 ov:1923 tpe:2004 lpa-:2016 tl:2026 hl:2047 ri:2108 tkl:2140 psl:2149 hki:2154
+add_train hki-jy-89-102-10 hki:1803 psl:1809 tkl:1819 ri:1852 hl:1911 tl:1931 lpa-:1941 tpe:2007 ov:2032 ja-s:2108 jy:2135
+add_train hki-tpe-89-102-10 hki:1803 psl:1809 tkl:1819 ri:1852 hl:1911 tl:1931 lpa-:1941 tpe:1953
+add_train hki-jy-93-102-10 hki:0903 psl:0909 tkl:0919 ri:0952 hl:1011 tl:1031 lpa-:1041 tpe:1107 ov:1132 ja-s:1207 jy:1240
+add_train jy-tpe-94-102-10 jy:1015 ja-s:1051 ov:1126 tpe:1150
+add_train jy-hki-94-102-10 jy:1015 ja-s:1051 ov:1126 tpe:1204 lpa-:1216 tl:1226 hl:1247 ri:1308 tkl:1340 psl:1349 hki:1354
+add_train kv-hki-100-102-10 kv:0919 lh:0949 tkl:1026 psl:1035 hki:1040
+add_train imr-hki-100-102-10 imr:0802 jts:0814 lr:0831 kv:0919 lh:0949 tkl:1026 psl:1035 hki:1040
+add_train kv-hki-102-102-10 kv:0619 lh:0649 tkl:0726 psl:0735 hki:0740
+add_train imr-hki-102-102-10 imr:0502 jts:0514 lr:0531 kv:0619 lh:0649 tkl:0726 psl:0735 hki:0740
+add_train imr-hki-104-102-10 imr:0602 jts:0614 lr:0631 kv:0719 lh:0749 tkl:0826 psl:0835 hki:0840
+add_train hki-lr-109-102-10 hki:1355 psl:1401 tkl:1411 lh:1451 kv:1523 lr:1607
+add_train hki-imr-111-102-10 hki:1715 psl:1721 tkl:1732 lh:1813 kv:1844 lr:1927 jts:1943 imr:1955
+add_train lr-hki-114-102-10 lr:1622 kv:1708 lh:1738 tkl:1815 psl:1824 hki:1829
+add_train hki-imr-115-102-10 hki:2019 psl:2025 tkl:2036 lh:2113 kv:2144 lr:2227 jts:2243 imr:2255
+add_train hki-kv-115-102-10 hki:2019 psl:2025 tkl:2036 lh:2113 kv:2141
+add_train klh-hki-e-109-10 klh:0605 epo:0609 trl:0611 kvh:0613 kni:0615 kea:0617 kil:0619 lpv:0622 hpl:0625 psl:0629 hki:0634
+add_train klh-hki-e-109-9995 klh:0605 epo:0609 trl:0611 kvh:0613 kni:0615 kea:0617 kil:0619 lpv:0622 hpl:0625 psl:0629 hki:0634
+add_train hki-klh-e-109-10 hki:0557 psl:0601 hpl:0604 lpv:0609 kil:0611 kea:0613 kni:0615 kvh:0617 trl:0619 epo:0622 klh:0626
+add_train hki-klh-e-109-9995 hki:0557 psl:0601 hpl:0604 lpv:0609 kil:0611 kea:0613 kni:0615 kvh:0617 trl:0619 epo:0622 klh:0626
+add_train jy-hki-140-102-10 jy:0617 ja-s:0648 ov:0725 tpe:0804 lpa-:0816 tl:0826 hl:0847 ri:0908 tkl:0940 psl:0949 hki:0954
+add_train tpe-hki-140-102-10 tpe:0804 lpa-:0816 tl:0826 hl:0847 ri:0908 tkl:0940 psl:0949 hki:0954
+add_train kuo-hki-142-102-10 kuo:0738 snj:0806 pm:0830 hks:0852 jy:0919 ja-s:0948 ov:1023 tpe:1104 lpa-:1116 tl:1126 hl:1147 ri:1208 tkl:1240 psl:1249 hki:1254
+add_train hki-pm-143-102-10 hki:1024 psl:1030 tkl:1041 tpe:1212 ov:1237 ja-s:1312 jy:1343 hks:1408 pm:1430
+add_train tpe-pm-143-102-10 tpe:1212 ov:1237 ja-s:1312 jy:1343 hks:1408 pm:1430
+add_train pm-hki-144-102-10 pm:1220 hks:1242 jy:1315 ja-s:1352 ov:1427 tpe:1504 lpa-:1516 tl:1526 hl:1547 ri:1608 tkl:1640 psl:1649 hki:1654
+add_train hki-pm-145-102-10 hki:1303 psl:1309 tkl:1319 ri:1352 hl:1411 tl:1431 lpa-:1441 tpe:1507 ov:1532 ja-s:1607 jy:1640 hks:1707 pm:1729
+add_train pm-hki-146-102-10 pm:1523 hks:1545 jy:1612 ja-s:1650 ov:1725 tpe:1804 lpa-:1816 tl:1826 hl:1847 ri:1908 tkl:1940 psl:1949 hki:1954
+add_train hki-kuo-147-102-10 hki:1603 psl:1609 tkl:1619 ri:1652 hl:1711 tl:1731 lpa-:1741 tpe:1807 ov:1832 ja-s:1912 jy:1941 hks:2012 pm:2036 snj:2059 kuo:2128
+add_train pm-tpe-148-102-10 pm:1811 hks:1833 jy:1915 ja-s:1951 ov:2026 tpe:2050
+add_train hki-jy-149-102-10 hki:1903 psl:1909 tkl:1919 ri:1952 hl:2011 tl:2031 lpa-:2041 tpe:2107 ov:2132 ja-s:2213 jy:2243
+add_train jy-hki-150-102-10 jy:0719 ja-s:0748 ov:0825 tpe:0900 tkl:1021 psl:1030 hki:1035
+add_train hki-jy-151-102-10 hki:1503 psl:1509 tkl:1519 ri:1552 hl:1611 tl:1631 lpa-:1641 tpe:1706 ov:1730 ja-s:1805 jy:1833
+add_train hki-pm-155-102-10 hki:0703 psl:0709 tkl:0719 ri:0752 hl:0811 tl:0831 lpa-:0841 tpe:0907 ov:0932 ja-s:1012 jy:1041 hks:1106 pm:1128
+add_train tpe-hki-160-102-10 tpe:0504 lpa-:0516 tl:0526 hl:0547 ri:0608 tkl:0640 psl:0649 hki:0654
+add_train tpe-hki-162-102-10 tpe:0545 lpa-:0557 tl:0607 hl:0629 ri:0649 tkl:0721 psl:0730 hki:0735
+add_train hki-pri-165-102-10 hki:0803 psl:0809 tkl:0819 ri:0852 hl:0911 tl:0931 lpa-:0941 tpe:1009 tso:1020 noa:1027 kru:1045 vma:1102 kki:1124 hva:1132 pri:1148
+add_train tpe-pri-165-102-10 tpe:1009 tso:1020 noa:1027 kru:1045 vma:1102 kki:1124 hva:1132 pri:1148
+add_train tpe-hki-166-102-10 tpe:0622 hl:0700 ri:0720 tkl:0755 psl:0804 hki:0810
+add_train hki-tpe-171-102-10 hki:1203 psl:1209 tkl:1219 ri:1252 hl:1311 tl:1331 lpa-:1341 tpe:1353
+add_train hki-pri-175-102-10 hki:1403 psl:1409 tkl:1419 ri:1452 hl:1511 tl:1531 lpa-:1541 tpe:1609 tso:1620 noa:1627 kru:1645 vma:1658 kki:1720 hva:1729 pri:1744
+add_train hki-tpe-177-102-10 hki:1703 psl:1709 tkl:1719 ri:1752 hl:1811 tl:1831 lpa-:1841 tpe:1853
+add_train tpe-hki-178-102-10 tpe:1404 lpa-:1416 tl:1426 hl:1447 ri:1508 tkl:1540 psl:1549 hki:1554
+add_train pri-hki-178-102-10 pri:1212 hva:1228 kki:1237 vma:1259 kru:1310 noa:1328 tso:1335 tpe:1404 lpa-:1416 tl:1426 hl:1447 ri:1508 tkl:1540 psl:1549 hki:1554
+add_train tpe-hki-180-102-10 tpe:1704 lpa-:1716 tl:1728 hl:1749 ri:1808 tkl:1840 psl:1849 hki:1854
+add_train hki-tpe-183-102-10 hki:2003 psl:2009 tkl:2019 ri:2052 hl:2111 tl:2131 lpa-:2141 tpe:2153
+add_train tpe-hki-184-102-10 tpe:1904 lpa-:1916 tl:1928 hl:1949 ri:2008 tkl:2040 psl:2049 hki:2054
+add_train hki-tpe-185-102-10 hki:2103 psl:2109 tkl:2119 ri:2152 hl:2211 tl:2231 lpa-:2241 tpe:2253
+add_train pri-hki-186-102-10 pri:1812 hva:1828 kki:1837 vma:1859 kru:1910 noa:1928 tso:1935 tpe:2004 lpa-:2016 tl:2026 hl:2047 ri:2108 tkl:2140 psl:2149 hki:2154
+add_train hki-tpe-187-102-10 hki:2203 psl:2209 tkl:2219 ri:2251 hl:2311 tl:2331 lpa-:2341 tpe:2353
+add_train tpe-hki-188-102-10 tpe:2359 lpa-:0015 tl:0030 hl:0059 ri:0120 tkl:0154 psl:0205 hki:0210
+add_train hki-tpe-189-102-10 hki:2330 psl:2340 tkl:2350 jp:0003 ri:0022 hl:0043 tl:0108 tpe:0137
+add_train hki-mva-205-102-10 hki:1543 psl:1549 tkl:1559 lh:1656 kv:1750 vna:2005
+add_train vna-hki-206-102-10 vna:0633 kv:0814 lh:0922 tkl:1016 psl:1026 hki:1031
+add_train kkn-hki-u-109-9995 kkn:0607 tol:0609 jrs:0612 mas:0614 klh:0619 epo:0623 trl:0625 kvh:0627 kni:0629 kea:0631 kil:0633 lpv:0636 hpl:0639 psl:0643 hki:0648
+add_train epo-hki-l-109-10 epo:0443 trl:0445 kvh:0447 kni:0449 kea:0451 kil:0453 lpv:0456 ma-k:0458 pjm:0500 vmo:0501 hpl:0503 ila:0505 psl:0508 hki:0513
+add_train kkn-hki-l-109-9995 kkn:0427 tol:0429 jrs:0432 mas:0434 klh:0439 epo:0443 trl:0445 kvh:0447 kni:0449 kea:0451 kil:0453 lpv:0456 ma-k:0458 pjm:0500 vmo:0501 hpl:0503 ila:0505 psl:0508 hki:0513
+add_train kkn-hki-l-109-10 kkn:0427 tol:0429 jrs:0432 mas:0434 klh:0439 epo:0443 trl:0445 kvh:0447 kni:0449 kea:0451 kil:0453 lpv:0456 ma-k:0458 pjm:0500 vmo:0501 hpl:0503 ila:0505 psl:0508 hki:0513
+add_train hki-kkn-l-109-10 hki:0433 psl:0437 ila:0439 hpl:0442 vmo:0443 pjm:0445 ma-k:0447 lpv:0451 kil:0453 kea:0455 kni:0457 kvh:0459 trl:0501 epo:0504 klh:0507 mas:0512 jrs:0514 tol:0517 kkn:0520
+add_train hki-kkn-l-109-9995 hki:0433 psl:0437 ila:0439 hpl:0442 vmo:0443 pjm:0445 ma-k:0447 lpv:0451 kil:0453 kea:0455 kni:0457 kvh:0459 trl:0501 epo:0504 klh:0507 mas:0512 jrs:0514 tol:0517 kkn:0520
+add_train hki-sti-l-109-10 hki:0503 psl:0507 ila:0509 hpl:0512 vmo:0513 pjm:0515 ma-k:0517 lpv:0521 kil:0523 kea:0525 kni:0527 kvh:0529 trl:0531 epo:0534 klh:0537 mas:0542 jrs:0544 tol:0547 kkn:0550 sti:0559
+add_train hki-sti-l-109-9995 hki:0503 psl:0507 ila:0509 hpl:0512 vmo:0513 pjm:0515 ma-k:0517 lpv:0521 kil:0523 kea:0525 kni:0527 kvh:0529 trl:0531 epo:0534 klh:0537 mas:0542 jrs:0544 tol:0547 kkn:0550 sti:0559
+add_train kv-hki-z-109-10 kv:0627 kra:0633 ka:0643 uka-:0655 nsl:0658 vlh:0703 lh:0713 hnn:0728 mla-:0740 haa:0752 ke:0801 tkl:0810 psl:0820 hki:0825
+add_train hki-kv-z-109-10 hki:1635 psl:1641 tkl:1650 ke:1659 haa:1707 mla-:1719 hnn:1732 lh:1750 vlh:1757 nsl:1801 uka-:1805 ka:1817 kra:1827 kv:1833
+add_train hki-kkn-u-109-10 hki:0637 psl:0641 hpl:0644 lpv:0649 kil:0651 kea:0653 kni:0655 kvh:0657 trl:0659 epo:0702 klh:0705 mas:0710 jrs:0712 tol:0715 kkn:0718
+add_train hki-kkn-u-109-9995 hki:0637 psl:0641 hpl:0644 lpv:0649 kil:0651 kea:0653 kni:0655 kvh:0657 trl:0659 epo:0702 klh:0705 mas:0710 jrs:0712 tol:0715 kkn:0718
+add_train kli-hki-262-102-10 kli:1500 pel:1551 ytr:1642 tri:1735 kem:1810 ol:1956 yv:2157 kok:2303 pna-:2329 sk:0124 tpe:0350 tl:0424 hl:0458 ri:0529 tkl:0612 psl:0655 hki:0701
+add_train hki-kli-263-102-10 hki:1835 psl:1842 tkl:1931 ri:2019 hl:2044 tl:2109 tpe:2152 sk:2340 pna-:0053 kok:0120 yv:0230 ol:0439 kem:0550 tri:0618 ytr:0710 pel:0758 kli:0849
+add_train roi-hki-264-102-10 roi:1646 kem:1905 ol:2016 yv:2219 kok:2321 sk:0135 tpe:0416 tl:0449 hl:0520 ri:0559 tkl:0646 psl:0717 hki:0722
+add_train hki-kja--265-102-10 hki:1945 psl:1953 tkl:2043 ri:2119 hl:2142 tpe:2305 pko:0001 sk:0107 kok:0238 yv:0326 ol:0456 kem:0602 roi:0735 mis:0813 kja-:0850
+add_train hki-roi-265-102-10 hki:1929 psl:1937 tkl:2030 ri:2116 hl:2140 tpe:2305 pko:0001 sk:0107 kok:0238 yv:0326 ol:0449 kem:0556 roi:0729
+add_train roi-hki-266-102-10 roi:1745 mul:1804 trv:1837 kem:1917 ol:2055 kml:2106 rki:2136 vti:2152 ou:2210 yv:2231 kns:2255 kok:2331 pna-:2353 kha:0032 lpa:0043 sk:0115 pko:0209 tpe:0345 tl:0412 hl:0438 ri:0503 tkl:0547 psl:0621 hki:0627
+add_train ol-hki-266-102-10 ol:2055 kml:2106 rki:2136 vti:2152 ou:2210 yv:2231 kns:2255 kok:2331 pna-:2353 kha:0032 lpa:0043 sk:0115 pko:0209 tpe:0345 tl:0412 hl:0438 ri:0503 tkl:0547 psl:0621 hki:0627
+add_train hki-roi-267-102-10 hki:2114 psl:2121 tkl:2204 ri:2258 hl:2323 tl:2351 tpe:0026 sk:0244 kok:0420 yv:0509 ol:0700 kem:0827 trv:0858 mul:0939 roi:0958
+add_train hki-kli-269-102-10 hki:2020 psl:2028 tkl:2106 ri:2158 hl:2224 tpe:2359 sk:0155 kok:0334 yv:0424 ol:0630 kem:0756 tri:0824 ytr:0916 pel:1004 kli:1055
+add_train hki-roi-273-102-10 hki:2313 psl:2320 tkl:0001 ri:0044 hl:0106 tl:0130 tpe:0230 pko:0323 sk:0415 lpa:0433 kha:0445 pna-:0523 kok:0551 kns:0616 yv:0642 ou:0701 vti:0718 rki:0732 kml:0757 ol:0836 kem:0946 trv:1018 mul:1054 roi:1113
+add_train hki-ol-273-102-10 hki:2313 psl:2320 tkl:0001 ri:0044 hl:0106 tl:0130 tpe:0230 pko:0323 sk:0415 lpa:0433 kha:0445 pna-:0523 kok:0551 kns:0616 yv:0642 ou:0701 vti:0718 rki:0732 kml:0757 ol:0806
+add_train kja--hki-274-102-10 kja-:1915 mis:1946 roi:2057 kem:2228 ol:2353 yv:0109 kok:0157 sk:0356 tpe:0608 tl:0642 hl:0708 ri:0739 tkl:0831 psl:0909 hki:0915
+add_train roi-hki-274-102-10 roi:2057 kem:2228 ol:2353 yv:0109 kok:0157 sk:0356 tpe:0608 tl:0642 hl:0708 ri:0739 tkl:0831 psl:0909 hki:0915
+add_train kli-hki-276-102-10 kli:1942 pel:2032 ytr:2123 tri:2216 kem:2250 ol:0057 yv:0244 kok:0335 sk:0519 tpe:0734 tl:0802 hl:0850 ri:0917 tkl:1001 psl:1040 hki:1045
+add_train sti-hki-l-109-10 sti:0028 kkn:0037 tol:0039 jrs:0042 mas:0044 klh:0049 epo:0053 trl:0055 kvh:0057 kni:0059 kea:0101 kil:0103 lpv:0106 ma-k:0108 pjm:0110 vmo:0111 hpl:0113 ila:0115 psl:0118 hki:0123
+add_train sti-hki-l-109-9995 sti:0028 kkn:0037 tol:0039 jrs:0042 mas:0044 klh:0049 epo:0053 trl:0055 kvh:0057 kni:0059 kea:0101 kil:0103 lpv:0106 ma-k:0108 pjm:0110 vmo:0111 hpl:0113 ila:0115 psl:0118 hki:0123
+add_train hki-hki-i-109-10 hki:0451 psl:0455 pmk:0502 ml:0504 tna:0506 pla:0508 tkl:0511 hkh:0513 lna-:0515 len:0519 avp:0521 kto-:0526 veh:0528 vks:0530 mrl:0531 loh:0533 myr:0535 mlo:0537 kan:0539 poh:0541 hpl:0543 ila:0545 psl:0548 hki:0553
+add_train sti-hki-y-109-10 sti:0609 kkn:0618 mas:0625 klh:0630 epo:0634 lpv:0642 hpl:0645 psl:0649 hki:0654
+add_train sti-hki-y-109-9995 sti:0609 kkn:0618 mas:0625 klh:0630 epo:0634 lpv:0642 hpl:0645 psl:0649 hki:0654
+add_train hki-sti-y-109-10 hki:0553 psl:0557 hpl:0600 lpv:0605 epo:0612 klh:0615 mas:0620 kkn:0627 sti:0636
+add_train hki-sti-y-109-9995 hki:0553 psl:0557 hpl:0600 lpv:0605 epo:0612 klh:0615 mas:0620 kkn:0627 sti:0636
+add_train hki-sti-x-109-10 hki:0647 psl:0651 hpl:0654 lpv:0659 kil:0701 kea:0703 kni:0705 kvh:0707 trl:0709 epo:0712 klh:0715 mas:0720 jrs:0722 tol:0725 kkn:0729 sti:0738
+add_train hki-sti-x-109-9995 hki:0647 psl:0651 hpl:0654 lpv:0659 kil:0701 kea:0703 kni:0705 kvh:0707 trl:0709 epo:0712 klh:0715 mas:0720 jrs:0722 tol:0725 kkn:0729 sti:0738
+add_train hnk-kr-381-102-10 hnk:0630 hkp:0632 sta:0639 lpo:0644 sgy:0648 tms:0657 dra:0700 kr:0710
+add_train kr-hnk-382-102-10 kr:0733 dra:0743 tms:0747 sgy:0755 lpo:0800 sta:0805 hkp:0811 hnk:0814
+add_train hnk-kr-383-102-10 hnk:0840 hkp:0842 sta:0849 lpo:0854 sgy:0858 tms:0907 dra:0910 kr:0920
+add_train kr-hnk-384-102-10 kr:0939 dra:0948 tms:0952 sgy:1000 lpo:1005 sta:1010 hkp:1016 hnk:1019
+add_train hnk-kr-385-102-10 hnk:1140 hkp:1142 sta:1149 lpo:1154 sgy:1158 tms:1207 dra:1210 kr:1220
+add_train kr-hnk-386-102-10 kr:1239 dra:1248 tms:1252 sgy:1300 lpo:1305 sta:1310 hkp:1316 hnk:1319
+add_train hnk-kr-387-102-10 hnk:1340 hkp:1342 sta:1349 lpo:1354 sgy:1358 tms:1407 dra:1410 kr:1420
+add_train kr-hnk-388-102-10 kr:1439 dra:1448 tms:1452 sgy:1500 lpo:1505 sta:1510 hkp:1516 hnk:1519
+add_train hnk-kr-389-102-10 hnk:1535 hkp:1537 sta:1544 lpo:1549 sgy:1553 tms:1602 dra:1605 kr:1615
+add_train kr-hnk-390-102-10 kr:1639 dra:1648 tms:1652 sgy:1700 lpo:1705 sta:1710 hkp:1716 hnk:1719
+add_train hnk-kr-391-102-10 hnk:1740 hkp:1742 sta:1749 lpo:1754 sgy:1758 tms:1807 dra:1810 kr:1820
+add_train sti-hki-x-109-10 sti:2022 kkn:2031 tol:2033 jrs:2036 mas:2038 klh:2043 epo:2047 trl:2049 kvh:2051 kni:2053 kea:2055 kil:2057 lpv:2100 hpl:2103 psl:2107 hki:2112
+add_train sti-hki-x-109-9995 sti:2022 kkn:2031 tol:2033 jrs:2036 mas:2038 klh:2043 epo:2047 trl:2049 kvh:2051 kni:2053 kea:2055 kil:2057 lpv:2100 hpl:2103 psl:2107 hki:2112
+add_train kr-hnk-392-102-10 kr:1839 dra:1848 tms:1852 sgy:1900 lpo:1905 sta:1910 hkp:1916 hnk:1919
+add_train hnk-kr-393-102-10 hnk:2040 hkp:2042 sta:2049 lpo:2054 sgy:2058 tms:2107 dra:2110 kr:2120
+add_train kr-hnk-394-102-10 kr:2139 dra:2148 tms:2152 sgy:2200 lpo:2205 sta:2210 hkp:2216 hnk:2219
+add_train hki-hki-p-109-10 hki:0418 psl:0422 ila:0424 hpl:0427 poh:0429 kan:0431 mlo:0433 myr:0435 loh:0436 mrl:0438 vks:0440 veh:0441 kto-:0444 avp:0449 len:0452 lna-:0455 hkh:0459 tkl:0501 pla:0503 tna:0505 ml:0507 pmk:0509 olk:0511 ka-p:0513 psl:0516 hki:0521
+add_train hki-hki-p-109-9995 hki:0418 psl:0422 ila:0424 hpl:0427 poh:0429 kan:0431 mlo:0433 myr:0435 loh:0436 mrl:0438 vks:0440 veh:0441 kto-:0444 avp:0449 len:0452 lna-:0455 hkh:0459 tkl:0501 pla:0503 tna:0505 ml:0507 pmk:0509 olk:0511 ka-p:0513 psl:0516 hki:0521
+add_train ol-roi-413-102-10 ol:1800 kem:1909 trv:1937 mul:2006 roi:2023
+add_train ol-roi-415-102-10 ol:2020 kem:2126 trv:2155 mul:2227 roi:2245
+add_train roi-ol-416-102-10 roi:1310 mul:1329 trv:1359 kem:1432 ol:1543
+add_train jy-tpe-420-102-10 jy:0505 pvi:0533 keu:0557 hpk:0619 klo:0629 vlp:0640 jj:0659 ovk:0710 ov:0715 tpe:0740
+add_train tpe-hpk-421-102-10 tpe:0806 ov:0832 ovk:0836 jj:0847 vlp:0907 klo:0915 hpk:0925
+add_train tpe-keu-421-102-10 tpe:0806 ov:0832 ovk:0836 jj:0847 vlp:0907 klo:0915 hpk:0933 keu:0947
+add_train jy-tpe-422-102-10 jy:0805 pvi:0833 keu:0857 hpk:0919 klo:0929 vlp:0940 jj:0959 ovk:1010 ov:1015 tpe:1040
+add_train tpe-keu-423-102-10 tpe:1206 ov:1232 ovk:1236 jj:1247 vlp:1307 klo:1315 hpk:1333 keu:1347
+add_train hpk-tpe-424-102-10 hpk:1019 klo:1029 vlp:1040 jj:1059 ovk:1110 ov:1115 tpe:1140
+add_train keu-tpe-424-102-10 keu:0957 hpk:1019 klo:1029 vlp:1040 jj:1059 ovk:1110 ov:1115 tpe:1140
+add_train keu-tpe-426-102-10 keu:1357 hpk:1419 klo:1429 vlp:1440 jj:1459 ovk:1510 ov:1515 tpe:1540
+add_train tpe-keu-427-102-10 tpe:1616 ov:1642 ovk:1646 jj:1657 vlp:1717 klo:1725 hpk:1743 keu:1757
+add_train keu-tpe-428-102-10 keu:1809 hpk:1831 klo:1841 vlp:1852 jj:1911 ovk:1922 ov:1927 tpe:1955
+add_train tpe-jy-429-102-10 tpe:2207 ov:2233 ovk:2237 jj:2248 vlp:2308 klo:2316 hpk:2334 keu:2349 pvi:0011 jy:0039
+add_train vs-sk-442-102-10 vs:1807 tk:1828 sk:1857
+add_train vs-sk-444-102-10 vs:1137 tk:1205 sk:1232
+add_train sk-vs-445-102-10 sk:1632 tk:1706 vs:1728
+add_train sk-vs-447-102-10 sk:1927 tk:1955 vs:2017
+add_train pri-tpe-460-102-10 pri:0517 hva:0533 kki:0542 vma:0604 kru:0615 noa:0633 tso:0640 tpe:0650
+add_train tpe-pri-461-102-10 tpe:0806 tso:0817 noa:0824 kru:0843 vma:0854 kki:0916 hva:0925 pri:0940
+add_train pri-tpe-462-102-10 pri:0612 hva:0628 kki:0637 vma:0659 kru:0710 noa:0728 tso:0735 tpe:0745
+add_train pri-tpe-464-102-10 pri:1003 hva:1019 kki:1028 vma:1050 kru:1101 noa:1119 tso:1126 tpe:1136
+add_train tpe-pri-465-102-10 tpe:1209 tso:1220 noa:1227 kru:1245 vma:1258 kki:1320 hva:1329 pri:1344
+add_train pri-tpe-466-102-10 pri:0717 hva:0733 kki:0742 vma:0804 kru:0815 noa:0838 tso:0845 tpe:0855
+add_train tpe-pri-467-102-10 tpe:1409 tso:1420 noa:1427 kru:1445 vma:1458 kki:1520 hva:1529 pri:1544
+add_train pri-tpe-468-102-10 pri:1412 hva:1428 kki:1437 vma:1459 kru:1510 noa:1528 tso:1535 tpe:1545
+add_train tpe-pri-469-102-10 tpe:1609 tso:1620 noa:1627 kru:1645 vma:1658 kki:1720 hva:1729 pri:1744
+add_train pri-tpe-470-102-10 pri:1612 hva:1628 kki:1637 vma:1659 kru:1710 noa:1728 tso:1735 tpe:1745
+add_train tpe-pri-471-102-10 tpe:1809 tso:1820 noa:1827 kru:1845 vma:1858 kki:1920 hva:1929 pri:1944
+add_train pri-tpe-472-102-10 pri:1812 hva:1828 kki:1837 vma:1859 kru:1910 noa:1928 tso:1935 tpe:1945
+add_train tpe-pri-473-102-10 tpe:2009 tso:2020 noa:2027 kru:2045 vma:2059 kki:2121 hva:2130 pri:2145
+add_train pri-tpe-474-102-10 pri:1212 hva:1228 kki:1237 vma:1259 kru:1310 noa:1328 tso:1335 tpe:1345
+add_train tpe-pri-475-102-10 tpe:2209 tso:2221 noa:2228 kru:2246 vma:2257 kki:2319 hva:2328 pri:2343
+add_train pri-tpe-476-102-10 pri:0804 hva:0820 kki:0829 vma:0853 kru:0904 noa:0922 tso:0929 tpe:0939
+add_train tpe-pri-477-102-10 tpe:0557 tso:0608 noa:0615 kru:0639 vma:0658 kki:0720 hva:0732 pri:0747
+add_train sk-a-ht-480-102-10 sk:0525 alv:0557 tuu:0604 a-ht:0619
+add_train jy-sk-481-102-10 jy:1223 pvi:1251 keu:1315 hpk:1330 ph:1340 my:1356 epz:1401 a-ht:1408 tuu:1423 alv:1430 sk:1502
+add_train sk-jy-482-102-10 sk:0930 alv:1001 tuu:1008 a-ht:1023 epz:1030 my:1035 ph:1051 hpk:1103 keu:1118 pvi:1140 jy:1208
+add_train jy-sk-485-102-10 jy:1947 pvi:2015 keu:2039 hpk:2054 ph:2105 my:2121 epz:2126 a-ht:2133 tuu:2148 alv:2155 sk:2227
+add_train sk-jy-486-102-10 sk:1652 alv:1724 tuu:1731 a-ht:1746 epz:1753 my:1758 ph:1814 hpk:1827 keu:1842 pvi:1904 jy:1932
+add_train a-ht-sk-487-102-10 a-ht:0013 tuu:0028 alv:0035 sk:0107
+add_train sk-a-ht-488-102-10 sk:2312 alv:2344 tuu:2351 a-ht:0006
+add_train a-ht-sk-489-102-10 a-ht:0635 tuu:0650 alv:0657 sk:0729
+add_train ilm-yv-491-102-10 ilm:0830 rnn:0842 krv:0856 pha-:0916 hpj:0937 nvl:0955 yv:1013
+add_train yv-ilm-494-102-10 yv:1337 nvl:1355 hpj:1413 pha-:1434 krv:1454 rnn:1505 ilm:1518
+add_train lna--hki-i-109-10 lna-:0101 len:0104 avp:0106 kto-:0111 veh:0113 vks:0115 mrl:0116 loh:0118 myr:0120 mlo:0122 kan:0124 poh:0126 hpl:0128 ila:0130 psl:0133 hki:0138
+add_train ilm-yv-495-102-10 ilm:1645 rnn:1657 krv:1708 pha-:1728 hpj:1748 nvl:1806 yv:1824
+add_train yv-ilm-496-102-10 yv:1912 nvl:1930 hpj:1948 pha-:2009 krv:2032 rnn:2043 ilm:2055
+add_train hki-hki-i-109-9995 hki:0436 psl:0440 ka-p:0443 olk:0445 pmk:0447 ml:0449 tna:0451 pla:0453 tkl:0456 hkh:0458 lna-:0500 len:0504 avp:0506 kto-:0511 veh:0513 vks:0515 mrl:0516 loh:0518 myr:0520 mlo:0522 kan:0524 poh:0526 hpl:0528 ila:0530 psl:0533 hki:0538
+add_train tku-hki-612-102-10 tku:0200 kut:0215 slo:0246 kr:0315 kkn:0342 lpv:0401 psl:0408 hki:0413
+add_train tpe-hki-620-102-10 tpe:2148 hl:2225 ri:2244 tkl:2316 psl:2325 hki:2330
+add_train tpe-hki-628-102-10 tpe:0110 lpa-:0125 tl:0139 hl:0204 ri:0228 tkl:0302 psl:0313 hki:0318
+add_train hki-hy-635-102-10 hki:0943 tkl:1004 jp:1029 jk:1100 hy:1116
+add_train hy-hl-637-102-10 hy:1404 ri:1423 ry:1439 tu:1520 hl:1538
+add_train hl-hy-638-102-10 hl:1610 tu:1658 hy:1752
+add_train hl-hy-644-102-10 hl:1005 tu:1018 ry:1031 ri:1041 hy:1052
+add_train hy-hki-646-102-10 hy:1517 jk:1529 jp:1541 tkl:1600 hki:1614
+add_train hki-kli-659-102-10 hki:1513 psl:1520 tkl:1611 ri:1657 hl:1727 tl:1803 tpe:1845 sk:2049 pna-:2202 kok:2236 yv:2329 ol:0312 kem:0423 tri:0451 ytr:0543 pel:0631 kli:0722
+add_train kv-kuo-701-102-10 kv:1648 mr:1726 mi:1752 pm:1832 snj:1854 kuo:1922
+add_train roi-kuo-710-102-10 roi:1535 mul:1552 trv:1628 kem:1659 ol:1812 mh:1843 utj:1859 vaa:1920 pto:1959 kon:2014 kaj:2037 skv:2103 ilm:2128 lna:2144 sij:2206 kuo:2224
+add_train roi-ol-710-102-10 roi:1535 mul:1552 trv:1628 kem:1659 ol:1800
+add_train ol-kuo-710-102-10 ol:1812 mh:1843 utj:1859 vaa:1920 pto:1959 kon:2014 kaj:2037 skv:2103 ilm:2128 lna:2144 sij:2206 kuo:2224
+add_train kuo-roi-711-102-10 kuo:0719 sij:0738 lna:0806 ilm:0823 skv:0846 kaj:0917 kon:0935 pto:0952 vaa:1024 utj:1046 mh:1103 ol:1223 kem:1326 trv:1358 mul:1427 roi:1445
+add_train ol-roi-711-102-10 ol:1223 kem:1326 trv:1358 mul:1427 roi:1445
+add_train kuo-ol-711-102-10 kuo:0719 sij:0738 lna:0806 ilm:0823 skv:0846 kaj:0917 kon:0935 pto:0952 vaa:1024 utj:1046 mh:1103 ol:1136
+add_train kuo-ol-713-102-10 kuo:1239 sij:1258 lna:1323 ilm:1340 skv:1403 kaj:1432 kon:1449 pto:1501 vaa:1532 utj:1552 mh:1608 ol:1639
+add_train ol-kuo-716-102-10 ol:1003 mh:1028 utj:1045 vaa:1106 pto:1140 kon:1154 kaj:1217 skv:1243 ilm:1308 lna:1324 sij:1347 kuo:1407
+add_train jns-pm-720-102-10 jns:0608 vnj:0631 vih:0655 hnv:0711 var:0745 pm:0820
+add_train pm-jns-723-102-10 pm:1142 var:1219 hnv:1251 vih:1307 vnj:1331 jns:1353
+add_train jns-pm-724-102-10 jns:1540 vnj:1603 vih:1627 hnv:1643 var:1717 pm:1752
+add_train pm-jns-727-102-10 pm:1807 var:1844 hnv:1916 vih:1932 vnj:1956 jns:2018
+add_train pm-jns-729-102-10 pm:2039 var:2114 hnv:2145 vih:2201 vnj:2225 jns:2249
+add_train sl-par-740-102-10 sl:0513 pky:0517 kia-:0525 ree:0534 lus:0537 pun:0543 par:0606
+add_train par-sl-741-102-10 par:0730 pun:0751 lus:0756 ree:0759 kia-:0808 pky:0818 sl:0823
+add_train sl-par-742-102-10 sl:0919 pky:0923 kia-:0931 ree:0940 lus:0943 pun:0949 par:1012
+add_train par-sl-743-102-10 par:1026 pun:1047 lus:1052 ree:1055 kia-:1104 pky:1114 sl:1119
+add_train sl-par-744-102-10 sl:1230 pky:1234 kia-:1242 ree:1251 lus:1254 pun:1300 par:1323
+add_train par-sl-745-102-10 par:1337 pun:1358 lus:1403 ree:1406 kia-:1415 pky:1425 sl:1430
+add_train sl-par-746-102-10 sl:1530 pky:1534 kia-:1542 ree:1551 lus:1554 pun:1600 par:1623
+add_train par-sl-747-102-10 par:1637 pun:1658 lus:1703 ree:1706 kia-:1715 pky:1725 sl:1730
+add_train sl-par-748-102-10 sl:1837 pky:1841 kia-:1849 ree:1858 lus:1901 pun:1907 par:1930
+add_train par-sl-749-102-10 par:1944 pun:2005 lus:2010 ree:2013 kia-:2022 pky:2032 sl:2037
+add_train sl-par-750-102-10 sl:2058 pky:2102 kia-:2110 ree:2119 lus:2122 pun:2128 par:2151
+add_train par-sl-751-102-10 par:2202 pun:2223 lus:2228 ree:2231 kia-:2240 pky:2250 sl:2255
+add_train sl-par-752-102-10 sl:0622 pky:0626 kia-:0634 ree:0643 lus:0646 pun:0652 par:0715
+add_train nrm-jns-760-102-10 nrm:0635 koh:0643 ho-l:0651 kyn:0708 lis:0722 vsl:0743 uim:0808 eno:0819 jns:0850
+add_train jns-nrm-761-102-10 jns:1154 eno:1219 uim:1230 vsl:1253 lis:1315 kyn:1326 ho-l:1343 koh:1351 nrm:1400
+add_train nrm-jns-762-102-10 nrm:1540 koh:1548 ho-l:1556 kyn:1613 lis:1626 vsl:1646 uim:1708 eno:1719 jns:1745
+add_train jns-nrm-763-102-10 jns:1800 eno:1825 uim:1836 vsl:1859 lis:1921 kyn:1932 ho-l:1949 koh:1957 nrm:2006
+add_train ptr-hki-781-102-10 vna:0814 kv:0855 lh:0921 tkl:0954 psl:1005 hki:1010
+add_train hki-ptr-782-102-10 hki:0617 psl:0623 tkl:0633 lh:0707 kv:0733 vna:0820
+add_train ptr-hki-783-102-10 vna:1304 kv:1345 lh:1411 tkl:1444 psl:1455 hki:1500
+add_train hki-ptr-784-102-10 hki:1057 psl:1103 tkl:1113 lh:1147 kv:1213 vna:1300
+add_train ptr-hki-785-102-10 vna:1704 kv:1745 lh:1811 tkl:1844 psl:1855 hki:1900
+add_train hki-ptr-786-102-10 hki:1557 psl:1603 tkl:1613 lh:1647 kv:1713 vna:1800
+add_train ptr-hki-787-102-10 vna:2204 kv:2245 lh:2311 tkl:2344 psl:2355 hki:0001
+add_train hki-ptr-788-102-10 hki:1957 psl:2003 tkl:2013 lh:2047 kv:2113 vna:2200
+add_train hki-ke-k-109-10 hki:0511 psl:0515 ka-p:0518 olk:0520 pmk:0522 ml:0524 tna:0526 pla:0528 tkl:0531 hkh:0533 kvy:0535 rkl:0537 krs:0539 sav:0542 ke:0545
+add_train hki-ke-k-109-9995 hki:0511 psl:0515 ka-p:0518 olk:0520 pmk:0522 ml:0524 tna:0526 pla:0528 tkl:0531 hkh:0533 kvy:0535 rkl:0537 krs:0539 sav:0542 ke:0545
+add_train ke-hki-k-109-10 ke:0556 sav:0558 krs:0601 rkl:0603 kvy:0605 hkh:0609 tkl:0611 pla:0613 tna:0615 ml:0617 pmk:0619 olk:0621 ka-p:0623 psl:0626 hki:0631
+add_train ke-hki-k-109-9995 ke:0556 sav:0558 krs:0601 rkl:0603 kvy:0605 hkh:0609 tkl:0611 pla:0613 tna:0615 ml:0617 pmk:0619 olk:0621 ka-p:0623 psl:0626 hki:0631
+add_train ol-roi-823-102-10 ol:1427 kem:1531 trv:1600 mul:1629 roi:1646
+add_train roi-ol-824-102-10 roi:0932 mul:0950 trv:1021 kem:1050 ol:1150
+add_train kok-ol-827-102-10 kok:1828 yv:1905 ou:1921 ol:2012
+add_train ol-kok-856-102-10 ol:1611 kml:1620 rki:1638 vti:1651 ou:1707 yv:1725 kns:1745 kok:1803
+add_train ke-tkl-k-109-10 ke:1001 sav:1003 krs:1006 rkl:1008 kvy:1010 hkh:1014 tkl:1016
+add_train tkl-ke-k-109-10 tkl:0955 hkh:0957 kvy:0959 rkl:1001 krs:1003 sav:1006 ke:1009
+add_train tpe-tus-904-102-10 tpe:0550 tl:0614 hp:0641 lm:0655 tku:0745 tus:0752
+add_train tku-tpe-905-102-10 tku:0654 lm:0740 hp:0753 tl:0819 tpe:0842
+add_train tku-tpe-909-102-10 tku:0905 lm:0944 hp:0959 tl:1025 tpe:1047
+add_train tus-tpe-909-102-10 tus:0805 tku:0905 lm:0944 hp:0959 tl:1025 tpe:1047
+add_train tpe-tku-910-102-10 tpe:0910 tl:0935 hp:1000 lm:1013 tku:1050
+add_train tpe-tku-916-102-10 tpe:1210 tl:1235 hp:1300 lm:1313 tku:1355
+add_train tku-tpe-917-102-10 tku:1305 lm:1344 hp:1357 tl:1425 tpe:1447
+add_train tpe-tku-920-102-10 tpe:1410 tl:1435 hp:1500 lm:1513 tku:1550
+add_train tku-tpe-921-102-10 tku:1456 lm:1542 hp:1559 tl:1625 tpe:1647
+add_train tpe-tku-922-102-10 tpe:1510 tl:1535 hp:1600 lm:1613 tku:1655
+add_train tku-tpe-923-102-10 tku:1605 lm:1644 hp:1659 tl:1725 tpe:1747
+add_train tpe-tus-924-102-10 tpe:1610 tl:1635 hp:1700 lm:1713 tku:1804 tus:1811
+add_train tku-tpe-927-102-10 tku:1805 lm:1844 hp:1859 tl:1925 tpe:1947
+add_train tpe-tus-928-102-10 tpe:1810 tl:1835 hp:1900 lm:1915 tku:1958 tus:2005
+add_train tpe-tku-930-102-10 tpe:1910 tl:1935 hp:2000 lm:2013 tku:2055
+add_train tus-tpe-931-102-10 tus:1945 tku:2005 lm:2044 hp:2057 tl:2123 tpe:2144
+add_train tku-tpe-933-102-10 tku:2100 lm:2142 hp:2159 tl:2225 tpe:2247
+add_train tus-tpe-933-102-10 tus:2020 tku:2100 lm:2142 hp:2159 tl:2225 tpe:2247
+add_train tpe-tku-934-102-10 tpe:2112 tl:2135 hp:2200 lm:2213 tku:2250
+add_train hki-kut-941-102-10 hki:0528 psl:0534 lpv:0541 kkn:0559 kr:0626 slo:0655 kut:0719
+add_train hki-slo-941-102-10 hki:0528 psl:0534 lpv:0541 kkn:0559 kr:0626 slo:0653
+add_train hki-tus-941-102-10 hki:0528 psl:0534 lpv:0541 kkn:0605 kr:0632 slo:0701 kut:0733 tku:0740 tus:0747
+add_train tku-hki-942-102-10 tku:0525 kut:0531 slo:0556 kr:0628 lpv:0711 psl:0718 hki:0723
+add_train slo-hki-942-102-10 slo:0556 kr:0628 lpv:0711 psl:0718 hki:0723
+add_train kut-hki-942-102-10 kut:0531 slo:0556 kr:0628 lpv:0711 psl:0718 hki:0723
+add_train hki-kut-943-102-10 hki:0628 psl:0634 lpv:0641 kkn:0659 kr:0726 slo:0755 kut:0819
+add_train hki-slo-943-102-10 hki:0628 psl:0634 lpv:0641 kkn:0659 kr:0726 slo:0753
+add_train hki-tku-943-102-10 hki:0628 psl:0634 lpv:0641 kkn:0659 kr:0726 slo:0803 kut:0829 tku:0834
+add_train tku-hki-944-102-10 tku:0623 kut:0629 slo:0656 kr:0728 lpv:0811 psl:0818 hki:0823
+add_train slo-hki-944-102-10 slo:0656 kr:0728 lpv:0811 psl:0818 hki:0823
+add_train kut-hki-944-102-10 kut:0631 slo:0656 kr:0728 lpv:0811 psl:0818 hki:0823
+add_train hki-kut-945-102-10 hki:0836 psl:0842 lpv:0849 kr:0932 slo:1001 kut:1025
+add_train hki-slo-945-102-10 hki:0836 psl:0842 lpv:0849 kr:0932 slo:0959
+add_train hki-tku-945-102-10 hki:0833 psl:0839 lpv:0846 kr:0932 slo:1001 kut:1026 tku:1031
+add_train tku-hki-946-102-10 tku:0729 kut:0735 slo:0802 kr:0831 lpv:0913 psl:0920 hki:0925
+add_train slo-hki-946-102-10 slo:0756 kr:0828 lpv:0911 psl:0918 hki:0923
+add_train kut-hki-946-102-10 kut:0731 slo:0756 kr:0828 lpv:0911 psl:0918 hki:0923
+add_train hki-kut-947-102-10 hki:0936 psl:0942 lpv:0949 kr:1032 slo:1101 kut:1125
+add_train hki-slo-947-102-10 hki:0936 psl:0942 lpv:0949 kr:1032 slo:1059
+add_train hki-tku-947-102-10 hki:0933 psl:0939 lpv:0946 kr:1032 slo:1101 kut:1129 tku:1134
+add_train kut-hki-948-102-10 kut:0831 slo:0859 kr:0928 lpv:1011 psl:1018 hki:1023
+add_train slo-hki-948-102-10 slo:0859 kr:0928 lpv:1011 psl:1018 hki:1023
+add_train tus-hki-948-102-10 tus:0810 tku:0825 kut:0831 slo:0901 kr:0928 lpv:1011 psl:1018 hki:1023
+add_train hki-kut-949-102-10 hki:1036 psl:1042 lpv:1049 kr:1132 slo:1201 kut:1225
+add_train hki-slo-949-102-10 hki:1036 psl:1042 lpv:1049 kr:1132 slo:1159
+add_train hki-tku-949-102-10 hki:1036 psl:1042 lpv:1049 kr:1132 slo:1201 kut:1229 tku:1234
+add_train kut-hki-950-102-10 kut:0931 slo:0959 kr:1028 lpv:1111 psl:1118 hki:1123
+add_train slo-hki-950-102-10 slo:0959 kr:1028 lpv:1111 psl:1118 hki:1123
+add_train tku-hki-950-102-10 tku:0925 kut:0931 slo:0959 kr:1028 lpv:1111 psl:1118 hki:1123
+add_train hki-kut-951-102-10 hki:1136 psl:1142 lpv:1149 kr:1232 slo:1301 kut:1325
+add_train hki-slo-951-102-10 hki:1136 psl:1142 lpv:1149 kr:1232 slo:1259
+add_train hki-tku-951-102-10 hki:1136 psl:1142 lpv:1149 kr:1232 slo:1301 kut:1329 tku:1334
+add_train hki-tku-953-102-10 hki:1236 psl:1242 lpv:1249 kr:1332 slo:1401 kut:1429 tku:1434
+add_train hki-kut-953-102-10 hki:1236 psl:1242 lpv:1249 kr:1332 slo:1401 kut:1425
+add_train tku-hki-954-102-10 tku:1125 kut:1131 slo:1159 kr:1228 lpv:1311 psl:1318 hki:1323
+add_train slo-hki-954-102-10 slo:1159 kr:1228 lpv:1311 psl:1318 hki:1323
+add_train kut-hki-954-102-10 kut:1131 slo:1159 kr:1228 lpv:1311 psl:1318 hki:1323
+add_train hki-kut-955-102-10 hki:1336 psl:1342 lpv:1349 kr:1432 slo:1501 kut:1525
+add_train hki-slo-955-102-10 hki:1336 psl:1342 lpv:1349 kr:1432 slo:1459
+add_train hki-tku-955-102-10 hki:1336 psl:1342 lpv:1349 kr:1432 slo:1501 kut:1529 tku:1534
+add_train kut-hki-956-102-10 kut:1231 slo:1259 kr:1328 lpv:1411 psl:1418 hki:1423
+add_train slo-hki-956-102-10 slo:1259 kr:1328 lpv:1411 psl:1418 hki:1423
+add_train tku-hki-956-102-10 tku:1225 kut:1231 slo:1259 kr:1328 lpv:1411 psl:1418 hki:1423
+add_train hki-kut-957-102-10 hki:1436 psl:1442 lpv:1449 kr:1532 slo:1601 kut:1625
+add_train hki-slo-957-102-10 hki:1436 psl:1442 lpv:1449 kr:1532 slo:1559
+add_train hki-tku-957-102-10 hki:1436 psl:1442 lpv:1449 kr:1532 slo:1601 kut:1629 tku:1634
+add_train kut-hki-958-102-10 kut:1331 slo:1359 kr:1428 lpv:1511 psl:1518 hki:1523
+add_train tku-hki-958-102-10 tku:1325 kut:1331 slo:1359 kr:1428 lpv:1511 psl:1518 hki:1523
+add_train hki-tku-959-102-10 hki:1536 psl:1542 lpv:1549 kr:1632 slo:1701 kut:1729 tku:1734
+add_train hki-slo-959-102-10 hki:1536 psl:1542 lpv:1549 kr:1632 slo:1659
+add_train hki-kut-959-102-10 hki:1536 psl:1542 lpv:1549 kr:1632 slo:1701 kut:1725
+add_train kut-hki-960-102-10 kut:1431 slo:1459 kr:1528 lpv:1611 psl:1618 hki:1623
+add_train slo-hki-960-102-10 slo:1459 kr:1528 lpv:1611 psl:1618 hki:1623
+add_train tku-hki-960-102-10 tku:1425 kut:1431 slo:1459 kr:1528 lpv:1611 psl:1618 hki:1623
+add_train hki-kut-961-102-10 hki:1636 psl:1642 lpv:1649 kr:1732 slo:1801 kut:1825
+add_train hki-slo-961-102-10 hki:1636 psl:1642 lpv:1649 kr:1732 slo:1759
+add_train hki-tku-961-102-10 hki:1636 psl:1642 lpv:1649 kr:1732 slo:1801 kut:1829 tku:1834
+add_train kut-hki-962-102-10 kut:1531 slo:1559 kr:1628 lpv:1711 psl:1718 hki:1723
+add_train slo-hki-962-102-10 slo:1559 kr:1628 lpv:1711 psl:1718 hki:1723
+add_train tku-hki-962-102-10 tku:1525 kut:1531 slo:1559 kr:1628 lpv:1711 psl:1718 hki:1723
+add_train hki-tus-963-102-10 hki:1736 psl:1742 lpv:1749 kr:1832 slo:1901 kut:1926 tku:1933 tus:1940
+add_train hki-slo-963-102-10 hki:1736 psl:1742 lpv:1749 kr:1832 slo:1859
+add_train hki-kut-963-102-10 hki:1736 psl:1742 lpv:1749 kr:1832 slo:1901 kut:1925
+add_train kut-hki-964-102-10 kut:1631 slo:1659 kr:1728 lpv:1811 psl:1818 hki:1823
+add_train slo-hki-964-102-10 slo:1659 kr:1728 lpv:1811 psl:1818 hki:1823
+add_train tku-hki-964-102-10 tku:1625 kut:1631 slo:1659 kr:1728 lpv:1811 psl:1818 hki:1823
+add_train hki-tku-965-102-10 hki:1836 psl:1842 lpv:1849 kr:1932 slo:2001 kut:2031 tku:2036
+add_train hki-slo-965-102-10 hki:1836 psl:1842 lpv:1849 kr:1932 slo:1959
+add_train hki-kut-965-102-10 hki:1836 psl:1842 lpv:1849 kr:1932 slo:2001 kut:2025
+add_train kut-hki-966-102-10 kut:1731 slo:1759 kr:1828 kkn:1855 lpv:1914 psl:1921 hki:1926
+add_train slo-hki-966-102-10 slo:1759 kr:1828 kkn:1855 lpv:1914 psl:1921 hki:1926
+add_train tku-hki-966-102-10 tku:1725 kut:1731 slo:1759 kr:1828 kkn:1855 lpv:1914 psl:1921 hki:1926
+add_train hki-kut-967-102-10 hki:2106 psl:2112 lpv:2119 kr:2202 slo:2231 kut:2255
+add_train hki-slo-967-102-10 hki:2106 psl:2112 lpv:2119 kr:2202 slo:2229
+add_train hki-tku-967-102-10 hki:2036 psl:2042 lpv:2049 kr:2132 slo:2201 kut:2226 tku:2231
+add_train tku-hki-968-102-10 tku:1825 kut:1831 slo:1859 kr:1928 lpv:2011 psl:2018 hki:2023
+add_train slo-hki-968-102-10 slo:1859 kr:1928 lpv:2011 psl:2018 hki:2023
+add_train kut-hki-968-102-10 kut:1831 slo:1859 kr:1928 lpv:2011 psl:2018 hki:2023
+add_train hki-kut-971-102-10 hki:1936 psl:1942 lpv:1949 kr:2032 slo:2101 kut:2125
+add_train hki-tku-971-102-10 hki:1936 psl:1942 lpv:1949 kr:2032 slo:2101 kut:2126 tku:2131
+add_train tus-hki-972-102-10 tus:2018 tku:2027 kut:2033 slo:2059 kr:2128 kkn:2155 lpv:2214 psl:2221 hki:2226
+add_train slo-hki-972-102-10 slo:2129 kr:2158 kkn:2225 lpv:2244 psl:2251 hki:2256
+add_train kut-hki-972-102-10 kut:2056 slo:2129 kr:2158 kkn:2225 lpv:2244 psl:2251 hki:2256
+add_train tku-hki-974-102-10 tku:2122 kut:2128 slo:2159 kr:2228 kkn:2255 lpv:2314 psl:2321 hki:2326
+add_train kut-hki-974-102-10 kut:1931 slo:1959 kr:2028 kkn:2055 lpv:2114 psl:2121 hki:2126
+add_train hki-kut-979-102-10 hki:0736 psl:0742 lpv:0749 kr:0832 slo:0901 kut:0925
+add_train hki-tku-979-102-10 hki:0736 psl:0742 lpv:0749 kr:0836 slo:0902 kut:0929 tku:0934
+add_train kut-hki-980-102-10 kut:2201 slo:2229 kr:2258 kkn:2325 lpv:2344 psl:2352 hki:2358
+add_train tna-hki-k-109-10 tna:0123 ml:0125 pmk:0127 olk:0129 ka-p:0131 psl:0134 hki:0139
+add_train hki-tna-k-109-10 hki:0121 psl:0126 ka-p:0129 olk:0131 pmk:0133 ml:0135 tna:0136
+add_train ri-hki-t-109-10 ri:0400 hy:0408 jk:0414 sau:0420 jp:0423 ke:0432 sav:0435 krs:0438 rkl:0440 kvy:0442 hkh:0445 tkl:0447 pla:0449 tna:0451 ml:0454 pmk:0456 olk:0458 ka-p:0500 psl:0504 hki:0509
+add_train ri-jp-t-109-10 ri:0155 hy:0203 jk:0209 sau:0215 jp:0217
+add_train jp-ri-t-109-10 jp:0249 sau:0252 jk:0258 hy:0305 ri:0314
+add_train ke-hki-r-109-10 ke:0500 tkl:0509 psl:0518 hki:0523
+add_train tpe-ri-r-109-10 tpe:0725 lpa-:0740 via:0749 tl:0755 ita:0805 prl:0813 hl:0819 tu:0828 ry:0837 ri:0845
+add_train noa-ri-r-109-10 noa:0705 tso:0712 tpe:0725 lpa-:0740 via:0749 tl:0755 ita:0805 prl:0813 hl:0819 tu:0828 ry:0837 ri:0845
+add_train ri-hki-r-109-10 ri:0455 hy:0503 jk:0509 sau:0515 jp:0518 ke:0526 tkl:0535 psl:0544 hki:0549
+add_train ke-hki-t-109-10 ke:0332 sav:0335 krs:0338 rkl:0340 kvy:0342 hkh:0345 tkl:0347 pla:0349 tna:0351 ml:0354 pmk:0356 olk:0358 ka-p:0400 psl:0404 hki:0409
+add_train ri-hl-r-109-10 ri:0542 ry:0549 tu:0557 hl:0604
+add_train hki-ri-r-109-10 hki:0420 psl:0425 tkl:0434 ke:0443 jp:0450 sau:0453 jk:0459 hy:0506 ri:0515
+add_train hki-tpe-r-109-10 hki:0510 psl:0515 tkl:0524 ke:0533 ain:0537 jp:0540 sau:0543 jk:0549 hy:0556 ri:0625 ry:0632 tu:0640 hl:0648 prl:0654 ita:0701 tl:0711 via:0716 lpa-:0723 tpe:0735
+add_train ri-tpe-r-109-10 ri:0520 ry:0527 tu:0536 hl:0545 prl:0551 ita:0559 tl:0610 via:0616 lpa-:0624 tpe:0638
+add_train ri-noa-r-109-10 ri:0520 ry:0527 tu:0536 hl:0545 prl:0551 ita:0559 tl:0610 via:0616 lpa-:0624 tpe:0643 tso:0652 noa:0658
+add_train hl-hki-r-109-10 hl:0620 tu:0628 ry:0636 ri:0655 hy:0703 jk:0709 sau:0715 jp:0718 ke:0726 tkl:0735 psl:0744 hki:0749
+add_train hl-hki-d-109-10 hl:0615 tu:0623 ry:0631 ri:0640 hy:0648 jp:0700 ke:0707 tkl:0716 psl:0725 hki:0730
+add_train tpe-hki-r-109-10 tpe:0635 lpa-:0648 via:0655 tl:0700 ita:0709 prl:0716 hl:0722 tu:0730 ry:0738 ri:0755 hy:0803 jk:0809 sau:0815 jp:0818 ain:0821 ke:0826 tkl:0835 psl:0844 hki:0849
+add_train ri-ke-r-109-10 ri:0825 hy:0833 jk:0839 sau:0845 jp:0848 ain:0851 ke:0855
+add_train lh-ke-z-109-10 lh:0021 hnn:0034 mla-:0045 haa:0055 ke:0102
+add_train ke-hki-z-109-10 ke:0159 tkl:0208 psl:0217 hki:0222
+add_train ke-ri-r-109-10 ke:0903 ain:0907 jp:0910 sau:0913 jk:0919 hy:0926 ri:0935
+add_train hki-hl-r-109-10 hki:1540 psl:1545 tkl:1554 ke:1603 jp:1610 sau:1613 jk:1619 hy:1626 ri:1645 ry:1652 tu:1705 hl:1713
+add_train hki-hl-d-109-10 hki:1610 psl:1615 tkl:1624 ke:1633 jp:1639 hy:1651 ri:1702 ry:1709 tu:1721 hl:1729
+add_train ke-tpe-r-109-10 ke:2303 ain:2307 jp:2310 sau:2313 jk:2319 hy:2326 ri:2345 ry:2352 tu:0000 hl:0008 prl:0014 ita:0021 tl:0031 via:0036 lpa-:0043 tpe:0055
+add_train hki-ke-r-109-10 hki:0040 psl:0045 tkl:0054 ke:0103
+add_train hl-ri-r-109-10 hl:0209 tu:0217 ry:0225 ri:0232
+add_train hki-ri-t-109-10 hki:0151 psl:0156 ka-p:0159 olk:0201 pmk:0203 ml:0205 tna:0207 pla:0209 tkl:0212 hkh:0214 kvy:0217 rkl:0219 krs:0222 sav:0225 ke:0229 ain:0234 jp:0237 sau:0240 jk:0247 hy:0255 ri:0305
+add_train hki-ke-t-109-10 hki:0151 psl:0156 ka-p:0159 olk:0201 pmk:0203 ml:0205 tna:0207 pla:0209 tkl:0212 hkh:0214 kvy:0217 rkl:0219 krs:0222 sav:0225 ke:0228
+add_train jp-ri-r-109-10 jp:0130 sau:0133 jk:0139 hy:0146 ri:0155
+add_train lh-hki-z-109-10 lh:0614 hnn:0627 mla-:0638 haa:0648 ke:0656 tkl:0705 psl:0714 hki:0719
+add_train hki-lh-z-109-10 hki:0635 psl:0640 tkl:0649 ke:0658 haa:0706 mla-:0716 hnn:0726 lh:0740
+add_train lh-kts-o-109-10 lh:0711 vlh:0718 nsl:0722 uka-:0726 ka:0738 kra:0748 kv:0800 mki:0811 ikr:0819 tsl:0829 ky:0832 kln:0836 pti:0840 kta:0844 kts:0847
+add_train kts-lh-o-109-10 kts:0654 kta:0657 pti:0659 kln:0703 ky:0707 tsl:0710 ikr:0722 mki:0729 kv:0744 kra:0750 ka:0807 uka-:0819 nsl:0823 vlh:0827 lh:0834
+add_train lh-kv-o-109-10 lh:0946 vlh:0953 nsl:0957 uka-:1001 ka:1013 kra:1023 kv:1029
+add_train kv-lh-o-109-10 kv:1030 kra:1036 ka:1047 uka-:1059 nsl:1102 vlh:1106 lh:1113
+add_train kv-kts-o-109-10 kv:0600 mki:0611 ikr:0619 tsl:0629 ky:0632 kln:0636 pti:0640 kta:0644 kts:0647
+add_train kts-kv-o-109-10 kts:0756 kta:0759 pti:0801 kln:0805 ky:0809 tsl:0812 ikr:0824 mki:0831 kv:0844
+add_train ri-lh-g-109-10 ri:0435 hk:0441 oi:0446 mla:0450 laa:0455 jr:0500 hr:0509 lh:0518
+add_train lh-ri-g-109-10 lh:0535 hr:0544 jr:0552 laa:0556 mla:0601 oi:0605 hk:0610 ri:0617
+add_train noa-tpe-m-109-10 noa:0905 tso:0912 tpe:0920
+add_train noa-tl-m-109-10 noa:0905 tso:0912 tpe:0925 lpa-:0940 via:0949 tl:0954
+add_train tpe-noa-m-109-10 tpe:0940 tso:0949 noa:0955
+add_train tl-noa-m-109-10 tl:1006 via:1012 lpa-:1020 tpe:1040 tso:1049 noa:1055
+add_train tl-tpe-m-109-10 tl:2206 via:2212 lpa-:2220 tpe:2235
+add_train tpe-tl-m-109-10 tpe:0708 lpa-:0723 via:0732 tl:0737
+add_train prv-hki-1910-102-3204 prv:1930 hh:1950 nla-:2020 hki:2111
+add_train hki-prv-1911-102-3204 hki:0949 tkl:1009 ke:1026 nla-:1041 hh:1113 prv:1133
+add_train prv-hki-1912-102-3204 prv:1430 hh:1450 nla-:1520 hki:1611
+add_train hki-prv-1919-102-3204 hki:1343 tkl:1403 ke:1420 nla-:1435 hh:1507 prv:1527
+add_train kv-pm-1921-102-3191 kv:1248 mi:1532 pm:1643
+add_train sk-kos-1921-102-3191 sk:1120 kos:1153
+add_train lo-hy-1921-102-3191 lo:0910 nm:0926 rm:1005 hy:1020
+add_train pm-hau-1922-102-3191 pm:1733 hau:1812
+add_train hy-lo-1922-102-3191 hy:1435 rm:1451 nm:1535 lo:1549
+add_train lo-hy-1923-102-3191 lo:1705 nm:1721 rm:1800 hy:1815
+add_train hy-ri-1927-102-3191 hy:1200 ri:1215
+add_train ri-hy-1928-102-3191 ri:1240 hy:1255
+add_train nrm-jns-1930-102-9998 nrm:1426 lis:1535 uim:1719 eno:1740 jns:1840
+add_train jns-khi-1931-102-9998 jns:1000 khi:1025
+add_train khi-jns-1932-102-9998 khi:1040 jns:1110
+add_train jns-ilo-1935-102-9998 jns:0915 ha-v:0955 tpv:1035 ilo:1130
+add_train ilo-jns-1936-102-9998 ilo:1530 tpv:1605 ha-v:1635 jns:1715
+add_train jns-nrm-1937-102-9998 jns:1550 uim:1711 lis:1814 nrm:1921
+add_train lvs-lpj-1941-102-3173 lvs:1217 lpj:1252
+add_train lpj-lvs-1942-102-3173 lpj:1315 lvs:1350
+add_train kv-lvs-1946-102-3173 kv:0844 ka:0908 uka-:0930 vlh:0941 lh:1015 om:1042 lpj:1131 lvs:1204
+add_train lvs-kv-1947-102-3173 lvs:1405 lpj:1621 om:1711 lh:1755 vlh:1807 uka-:1823 ka:1843 kv:1905
+add_train suo-pm-1952-102-3184 suo:0950 jy:1059 pm:1235
+add_train pm-suo-1954-102-3184 pm:1452 jy:1709 suo:1753
+add_train ol-lka-1970-102-3163 ol:0930 kml:0943 lka:0955
+add_train to-r-lla-1970-102-3163 to-r:1342 lla:1353
+add_train ii-ol-1970-102-3163 ii:1045 hd:1101 ol:1122
+add_train to-r-ol-1970-102-3163 to-r:1215 ol:1425
+add_train lka-ol-1971-102-3163 lka:1316 kml:1329 ol:1345
+add_train ol-to-r-1971-102-3163 ol:1110 to-r:1320
+add_train ol-ii-1971-102-3163 ol:1000 hd:1023 ii:1037
+add_train lla-to-r-1971-102-3163 lla:1200 to-r:1211
+add_train ol-lka-1972-102-3163 ol:1755 lka:1828
+add_train ii-ol-1972-102-3163 ii:1322 hd:1338 ol:1359
+add_train lka-ol-1973-102-3163 lka:1834 ol:1857
+add_train ol-ii-1973-102-3163 ol:1235 hd:1258 ii:1312
+add_train ol-lka-1974-102-3163 ol:1425 kml:1438 lka:1450
+add_train ii-ol-1974-102-3163 ii:1530 hd:1546 ol:1607
+add_train lka-ol-1975-102-3163 lka:1500 kml:1513 ol:1525
+add_train ol-ii-1975-102-3163 ol:1440 hd:1503 ii:1517

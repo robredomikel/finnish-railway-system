@@ -1,0 +1,11 @@
+add_region 6440429 "tampereen seutukunta"  (442,495) (535,586) (729,518) (597,396) (442,495)
+add_station_to_region tpe 6440429
+add_region 2528474 "rovaniemi"  (656,1714) (737,1500) (848,1525) (823,1641) (656,1714)
+add_region 1724359 "lappi"  (327,2139) (1020,2232) (1006,1566) (556,1525) (327,2139)
+add_station_to_region roi 2528474
+add_subregion_to_region 2528474 1724359
+add_station_to_region kli 1724359
+add_region 54224 "suomi - finland"  (23,189) (188,827) (598,1300) (590,1641) (567,1894) (415,2187) (672,2026) (906,2369) (960,2023) (1030,1664) (1111,1219) (1164,958) (1308,666) (143,0) (23,189)
+add_subregion_to_region 6440429 54224
+add_subregion_to_region 1724359 54224
+add_station_to_region kuo 54224

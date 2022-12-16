@@ -1,0 +1,64 @@
+> # Test route_with_cycle
+> clear_all
+Cleared all stations
+> clear_trains
+All trains removed.
+> station_count
+Number of stations: 0
+> # Add stations
+> add_station Id1 "One" (11,12)
+Station:
+   One: pos=(11,12), id=Id1
+> add_station Id2 "Two" (21,22)
+Station:
+   Two: pos=(21,22), id=Id2
+> add_station Id3 "Three" (13,20)
+Station:
+   Three: pos=(13,20), id=Id3
+> station_count
+Number of stations: 3
+> # Add trains
+> add_train T12 Id1:0800 Id2:0900
+1. One (Id1) -> Two (Id2): T12 (at 0800)
+2. Two (Id2): T12 (at 0900)
+> add_train T32 Id3:1000 Id2:1100
+1. Three (Id3) -> Two (Id2): T32 (at 1000)
+2. Two (Id2): T32 (at 1100)
+> # Test no cycles
+> route_with_cycle Id1
+No route found.
+> route_with_cycle Id2
+No route found.
+> route_with_cycle Id3
+No route found.
+> # Test non-existing station
+> route_with_cycle Id4
+Starting station not found!
+> # Test Non-existing route
+> add_station Id4 "Four" (20, 14)
+Station:
+   Four: pos=(20,14), id=Id4
+> route_with_cycle Id4
+No route found.
+> # Test a T-crossing
+> add_train T24 Id2:1700 Id4:1800
+1. Two (Id2) -> Four (Id4): T24 (at 1700)
+2. Four (Id4): T24 (at 1800)
+> route_with_cycle Id4
+No route found.
+> # Add a loop
+> add_train T41 Id4:0100 Id1:0110
+1. Four (Id4) -> One (Id1): T41 (at 0100)
+2. One (Id1): T41 (at 0110)
+> route_with_cycle Id4
+1. Four (Id4) -> One (Id1)
+2. One (Id1) -> Two (Id2)
+3. Two (Id2) -> Four (Id4)
+4. Four (Id4)
+> route_with_cycle Id3
+1. Three (Id3) -> Two (Id2)
+2. Two (Id2) -> Four (Id4)
+3. Four (Id4) -> One (Id1)
+4. One (Id1) -> Two (Id2)
+5. Two (Id2)
+> 

@@ -1,0 +1,18 @@
+Initial problem: I couldn't debug my program since there was no option, just the 'release'.
+
+In this process it's explained how to perform in this kind of cases:
+
+1. Check in the projects tab of qt (left corner of the UI) and select the Run part, not the Build part.
+
+2. There, check which is the Debugger directory, and to which working directory is pointing. 
+   We need to point to the directory where the project files, classes and objects, and data are.
+
+IMPORTANT: When opening a project from qt, first an initial window will show up showing the options qt offers for
+	   running the program, we must choose all of them "run" "release" "debug" "profile" so that the kit we are using
+	   gives all these build options while programming.
+
+CONCEPT:
+
+	- KIT: Building configuration (It's normally what we set up before configuring the project), and it appears outside the
+	       working directory. We can choose different ones and even create new ones, but we must be clear on how to set them
+		initially. (That's why all the process explained in this document.)

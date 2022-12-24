@@ -1,5 +1,6 @@
 # Finnish Railway System
-This project is based on the final project required in the subject Data Structures and Algorithms 1 at Tampere University. Shortly, it performs relationships between stations, regions and trains, and its goal is to run every single function of the project with less than $O(n^2)$.
+This project is based on the final project required in the subject Data Structures and Algorithms 1 at Tampere University. Shortly, my work covered the content appearing in **datastructures.hh** and **datastructures.c** in which I implemented the needed data structures and functions for the correct functionality of the given GUI.
+  
 **Note:** Final function of the project specified later on may not print correctly some of the test cases, but overall it works fine.
 
 ## Table of contents
@@ -20,6 +21,9 @@ This project is based on the final project required in the subject Data Structur
 - [References](https://github.com/robredomikel/finnish-railway-system#references)
 
 ## Description
+In this project I implemented the necessary data structures and operations so that train stations, train departures and administrative regions can be added to the program, and furthermore train connections between stations can be created and shown based on different preferences. The **goal of the project** is to run every single function of the project with less than $O(n^2)$ asymptotical efficiency.
+
+During this  README file I will mostly **go over some of the most important features** in which the project is based on, rather than the description of each function and their asymtotical efficiency can be found on the definition of the function in the **datastructures.hh** file.
 ## How to run
 ### In the terminal
 ### In Qt

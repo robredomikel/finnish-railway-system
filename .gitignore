@@ -1,1 +1,6 @@
+# Images for readme file
 *.PNG
+
+# debugger-settings file & pro.user file
+settings_debugger.txt
+prg2.pro.user

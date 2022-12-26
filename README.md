@@ -27,10 +27,10 @@ During this  README file I will mostly **go over some of the most important feat
 ### In Qt
 If you want to get visual output of what the input commands print out, then it's preferable that Qt is used since the GUI of this project was created with Qt designer by the course staff. Other IDEs could be used but then the output would be only numerical. 
 In order to start running the program, you would need to open with Qt creator the pro file. Then, the same interface guides the user when clicking in any function operation, as it can be seen in the following image:
-!["read" command](./finnish-railways/read-command.PNG)
+!["read" command](read-command.PNG)
 
 If you want to run several commands at once, then inside the **functional-tests folder** you could find some test functions that through the option **read** can be computed all at once. For this, the test file to be used would need to be moved to the main project folder, so that it can bw tracked by the project. 
-![map display](./finnish-railways/map-example.PNG)
+![map display](map-example.PNG)
 ## Main features
 ### STL library
 Most features of this project have been based on the use of STL library.
@@ -85,13 +85,13 @@ In this project all the necessary objects (Station, Region, Train...) have been 
 Regional organization, stations' order and trains' itinerary are based on tree rules that, require tree-based traversal logic, when it comes to search efficiently for a specific result. Some of the algorithms used are listed below, for further information on them, wikipedia links with their logic have been attached at the end.
 ### Breath First Search
 Used in functions ```route_any``` & ```route_least_stations```, it searches for the first existing route from a source station and a ending station, which turns to be the shortest path in terms of number of stations.
-![BFS algorithm](./finnish-railways/BFS-Algorithm_Search_Way.gif)
+![BFS-Algorithm_Search_Way.gif (480×360) (wikimedia.org)](https://upload.wikimedia.org/wikipedia/commons/f/f5/BFS-Algorithm_Search_Way.gif)
 ### Depth First Search
 Used in function ```route_with_cycle```, it shows the path that the train would do to **make the cycle**, that is, stopping by the same station more than once.
-![DFS algorithm](./finnish-railways/dfs.gif)
+![dfs.gif (500×180) (inginious.org)](https://inginious.org/course/competitive-programming/graphs-dfs/dfs.gif)
 ### Dijkstra's Algorithm
 Used in function ```route_shortest_distance```, it finds the shortest route between two stations based on the **distance weight**, which is calculated through the Euclidean distance.
-![Dijkstra's algorithm](./finnish-railways/Dijkstras_progress_animation.gif)
+![shortestpathalgorithm.gif (307×201) (gridshore.nl)](http://www.gridshore.nl/wp-content/uploads/shortestpathalgorithm.gif)
 
 ## Further comments
 This project should be seen from a **data-structures and algorithms** backed perspective. Indeed, all the implemented code has been based on this part of the project.
@@ -102,5 +102,5 @@ Also, if there's interest on knowing all the asymptotic efficiencies of each fun
 - [Data Structures and Algorithms 1 (FITech) | Tampere universities (tuni.fi)](https://www.tuni.fi/en/study-with-us/data-structures-and-algorithms-1-fitech#url-controlled-expander-trigger--study-program-non-degree-298992)
 - [cppreference.com](https://en.cppreference.com/w/)
 - [Breadth-first search - Wikipedia](https://en.wikipedia.org/wiki/Breadth-first_search)
-- [Depth-first search - Wikipedia](https://en.wikipedia.org/wiki/Depth-first_search)
-- [Dijkstra's algorithm - Wikipedia](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+- [Dutch Direct: Celebrating the 50th anniversary of Dijkstra's Shortest Path algorithm - Gridshore](https://www.gridshore.nl/2009/04/20/dutch-direct-celebrating-the-50th-anniversary-of-dijkstras-shortest-path-algorithm/)
+- [Graphs - Depth-first search: cycle finding - Competitive Programming | INGInious](https://inginious.org/course/competitive-programming/graphs-dfs?lang=fr)

@@ -4,3 +4,6 @@
 # debugger-settings file & pro.user file
 *.txt
 *.user
+
+# algorithms' gifs
+*.gif
